@@ -1,0 +1,20 @@
+ Il volume nell'unit… C Š Acer
+ Numero di serie del volume: 9AC9-8549
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI_DI_SPESA\OBJECT\ZIP
+
+[.]
+[..]
+AA__________________________________________________________________________AA.txt
+zip__________________________________________________________________________ZZ.txt
+ZIP_IMPEGNI_DI_SPESA_SALVATAGGI.RAR
+ZIP_LOG_IMPEGNI_DI_SPESA_SALVATAGGI_ElencoFile.TXT
+ZIP_RAR.BAT
+Zip_rar_C.bat
+Zip_rar_C_GitHub.bat
+ZZ__________________________________________________________________________ZZ.txt
+               8 File         86.231 byte
+
+     Totale file elencati:
+               8 File         86.231 byte
+               2 Directory  145.767.206.912 byte disponibili
