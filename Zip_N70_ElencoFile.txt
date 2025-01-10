@@ -1,20 +1,8 @@
 //ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva 
 //questo è il secondo esempio con path e file liberi senza .\ e sembra che funziona
 //............................................................................//
-ACQUA
-AGGIORNAMENTI
-AMMINISTRAZIONE
-ASSEMBLEA_ORDINARIA
-CONTRATTI_BOX
-ENERGIA_A2A
-FOGNE
-FOTO_LE_TORRI
-INFILTRAZIONI
-PEC_AMMINISTRAZIONE_CONDOMINIO
-PULIZIE
-VARIE
-VERSAMENTI
-
+MDB
+OBJECT
 A__________________________2023_________________________________________A.txt
 Project_LeTorri_2023.sublime-project
 Project_LeTorri_2023.sublime-workspace

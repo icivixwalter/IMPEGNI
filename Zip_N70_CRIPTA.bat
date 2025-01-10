@@ -22,14 +22,14 @@
 					@REM alla fine del ciclo salvo la path corrente
 					@REM per arrivare alla cartella dei salvataggi che viene 
 					@REM creata dalla procedura zip oppure è gia esistente
-					@SET PATH_DEST_S=%currDir_%00_SALVATAGGI_2023
+					@SET PATH_DEST_S=%currDir_%AA_SALVATAGGI
 					
 					@ECHO.
 					@ECHO. controllo della path di destinazione
 					@ECHO. %PATH_DEST_S%
 					@ECHO. 
 						DIR %PATH_DEST_S%
-					@REM -----> PAUSE
+					@REM PAUSE
 			@REM .......................................................
 
 
@@ -87,7 +87,7 @@
 					@REM ---->	timeout /t 2 /nobreak > NUL
 					@REM ---->	
 					@TIMEOUT /T %t% /NOBREAK
-					@REM -----> PAUSE
+					@REM Pause
 
 
 			@REM CICLO FOR I E II CASO PER LA GESTIONE DELLA DATA  *** FINE ***
@@ -105,22 +105,19 @@
 			CD %PATH_DEST_S%
 			DIR 
 
-			@REM -----> PAUSE
+			@REM PAUSE
 
 					@REM SOSPENSIONE TEMPO IMPOSTATA CON T
 					@REM ---->	timeout /t 2 /nobreak > NUL
 					@REM ---->	
 					@TIMEOUT /T %t% /NOBREAK
-					@REM -----> PAUSE
+					@REM Pause
 
 	@CLS
 	@echo.04--------------------------------CRIPTOAGGIO IN GE614
 
 		@ECHO.
 		@ECHO.04.00 CRIPTA, RENAME DEL FILE IN .GE614
-		@ECHO. controllo variabile TODAY e path PATH_DEST_S:
-		@ECHO. %PATH_DEST_S%
-		@ECHO. %TODAY%
 		@ECHO.
 		@ECHO.
 
@@ -128,11 +125,10 @@
 			@REM//CRIPTA i file .rar .zip in GE614
 			@RENAME "%TODAY%*.RAR" "%TODAY%*.GE614"
 			@RENAME "%TODAY%*.ZIP" "%TODAY%*.GE614"
-					@REM -----> PAUSE
 
 
 				@REM SOSPENSIONE TEMPO IMPOSTATA CON T
 					@REM ---->	timeout /t 2 /nobreak > NUL
 					@REM ---->	
 					@TIMEOUT /T %t% /NOBREAK
-					@REM -----> PAUSE
+					@REM Pause

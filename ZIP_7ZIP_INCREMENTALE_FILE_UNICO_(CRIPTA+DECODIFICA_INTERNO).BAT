@@ -1,93 +1,3 @@
-goto NoteSalvataggi
-	
-	NOTE 
-		
-		@NOTE@PROCEDURA@DOS_(La procedura di salvataggio incrementale in dos)
-
-		Procedura Dos per il salvataggio incrementale, ossia gli archivi vengono 
-		classificati con una data impostata come AAA_MM_GG_NomeArchivio.zip 
-			Esempio: 2024_09_22_SALVATAGGI_IMPEGNI.zip 
-
-		Il vantaggio è quello di avere delle versioni di salvataggio sempre piu aggiornate
-		fino ad arrivare a quella definitiva consentono di avere l'ultimo archivio completo
-		ed aggiornato e cancellare i prototipi precedenti.
-		La data dell'archivio definitivo è soggettiva quindi viene stabilita dall'operatore.
-
-
-	PARAMETRI_DA_CAMBIARE
-		I parametri che vengono utilizzati sono 5 si possono modificare solo 
-		il 1,2,3, ed il 5 mentre il  4 è per il momento escluso :
-
-				
-				@PARAMETRO_01: LA PATH DI PARTENZA O PRINCIPALE 		
-							--->		c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\ 
-				
-				
-				@PARAMETRO_02: LA PATH DI DESTINAZIONE PER I SALVATAGGI
-							---> 		c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\AA_SALVATAGGI\ 	
-
-				@PARAMETRO_03: LA VARIABILE DELLA CARTELLA SALVATAGGI
-							al momento la la variabile preleva da parametro 2 non si puo modificare
-							salvo ulteriori utilizzi.
-							---> 		 c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\%CARTELLA_SALVATAGGI_S%
-				
-				@PARAMETRO_04: LA FILE 7ZIP, RAR DI SALVATAGGIO DELL'ARCHIVIO
-							---> 		 ZIP_SALVATAGGI_IMPEGNI
-				
-				@PARAMETRO_05: LA LISTA DEI FILE UTILIZZATA PER LA COMPRESSIONE
-							---> 		 Zip_N70_ElencoFile.txt
-				
-				@PARAMETRO_06: IL TEMPO IN SECONDI VALIDO PER TUTTE LE INTERRUZIONI
-
-							---> 		 @SET t=2
-
-	SALVATAGGI_ARCHIVI_7Z
-		viene attivato il comando dei salvataggi dei file contenuti nella lista .txt e processati 
-		in un archivi .zip. Per ora non funzione il file di esclusione -xr@Zip_N70_ElencoFileESCLUSI.txt
-		ma solo quello dell'elenco file con il comando 
-			"C:\Program Files\7-Zip\7z.exe" u -tzip -r %PATH_DEST_S%\%TODAY%_%FILE_S% @Zip_N70_ElencoFile.txt
-		mentre il comando che prevede entrambi i file NON FUNZIONA:
-			"C:\Program Files\7-Zip\7z.exe" u -tzip -r %PATH_DEST_S%\%TODAY%_%FILE_S% @Zip_N70_ElencoFile.txt -xr@Zip_N70_ElencoFileESCLUSI.txt
-		e quindi rimane solo l'elenco dei processati.
-
-				vedi codice ----> @SALVATAGGI@ZIP
-
-	SALVATAGGI_LISTA_FILE
-		viene attivato un salvataggio della lista file indicata nello zip e salvata in un txt.
-			vedi codice ----> @SALVATAGGI@LISTA.TXT
-
-	ATTENZIONE_TEMPO
-		per ora il tempo è impostato a 0 ma se cambiamo il parametro set T possiamo impostatare
-		il tempo uguale per tutte le interruzioni. Vedi codice ----> @PARAMETRO_06
-
-	ATTENZIONE_CARTELLA_SALVATAGGI 
-
-		Fare attenzione alla cartella dei salvataggi che deve essere cambiata sia sul file
-		principale e sia su quelle di servizio. Per cui la cartella dei salvataggi deve essere
-		cambiata in quest bat:
-			ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT
-			Zip_N70_CRIPTA.bat
-			Zip_N70_DECODIFICA.bat
-
-		Al momento la cartella dei salvataggi è impostata per entrambi i file in: 
-			AA_SALVATAGGI
-		e deve essere cambiata su tutti e 3 i file.
-
-	ATTENZIONE_LISTA_FILE.TXT
-		questo file deve essere modificato perche contiene il nome dei file da sottoporre alla 
-		compressione. Se viene spostato in un'altro porogetto devono essere sostituiti i nome dei file 
-		tenendo presente che quelli con caratteri speciali e/o spazi devon ossere inclusi in virgolette.
-		In caso contrario errori o spazi sui nomi anche all'inizio fa fallire la compressione.
-		 
-
-	DECODIFICA+CRIPTA 
-		Alla conclusione della compressione vengo chiamati i bat di criptaggio:
-			@CHIAMO@CRIPTA
-
-		Mentre il decodifica viene chiamato all'inizio per consentire l'aggiornamento dell'archivio
-			@CHIAMA@DECODIFICA
-
-:NoteSalvataggi
 
 		
 
@@ -109,26 +19,25 @@ goto NoteSalvataggi
 		@ECHO.00.00 PROGETTO BAT INCREMENTALE BASATO SU 7zip
 		@ECHO.
 		@ECHO.
-		@ECHO. CONTROLLO DEI PARAMETRI IMPOSTATI PER IL FUNZIONAMETO
-		@ECHO. 		
+		@ECHO. IMPOSTO I PARAMETRI SU TUTTO IL FILE e qui posson ossere cambiati e  
+		@ECHO. di seguito puoi cambiare questo percorso path per una sostituzione collettiva: 
+		@ECHO. 
+		@ECHO. cambia questo parametro ---------: 			c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\ 
+		@ECHO. 
+		@ECHO. cambia questo parametro ---------: 			ZIP_SALVATAGGI_Impegni
+		@ECHO. 
+		@ECHO. 
+		@ECHO. 
+		@ECHO. cambiando questi 2 parametri si ha effetto di cambiare i valori di tutti i parametri
+		@ECHO. dos preimpostati come di seguito indicato:
+		@ECHO. 
 		@ECHO. 									effetto sostituzione collettivo
 		@ECHO. --------------------------------------------------------------------------------------------------------
-		@ECHO. @PARAMETRO_01
-		@ECHO. LA PATH DI PARTENZA O PRINCIPALE				= 	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
-		@ECHO. 
-		@ECHO. @PARAMETRO_02
+		@ECHO. LA PATH DI DESTINAZIONE PER I SALVATAGGI 	=	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\%CARTELLA_SALVATAGGI_S%
 		@ECHO. LA CARTELLA SALVATAGGI CREATA O ESISTENTE 	=  	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\AA_SALVATAGGI\
-		@ECHO. 
-		@ECHO. @PARAMETRO_03
-		@ECHO. LA VARIABILE DELLA CARTELLA SALVATAGGI 	=	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\%CARTELLA_SALVATAGGI_S%
-		@ECHO. per ora non modificabile perche preleva dal parametro 2.
-		@ECHO. 
-		@ECHO. 
-		@ECHO. @PARAMETRO_04
-		@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO 				= 	ZIP_SALVATAGGI_IMPEGNI
-		@ECHO. 
-		@ECHO. @PARAMETRO_05
-		@ECHO. LISTA FILE UTILIZZATA 						= 	Zip_N70_ElencoFile.txt
+		@ECHO. LA PATH DI PARTENZA				= 	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
+		@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO 			= 	ZIP_SALVATAGGI_Impegni
+		@ECHO. LISTA FILE UTILIZZATA				= 	Zip_N70_ElencoFile.txt
 		@ECHO. --------------------------------------------------------------------------------------------------------
 		@ECHO.
 
@@ -153,18 +62,12 @@ goto NoteSalvataggi
 										@REM ---->	timeout /t 2 /nobreak > NUL
 										@REM ---->	
 										@TIMEOUT /T %t% /NOBREAK
-										@REM -----> PAUSE
+										@REM Pause
 
 				
 				)
 
 					@REM CREATA OD ESISTENTE VIENE SALVATA LA CARTELLA SALATAGGI NELLA VARIABILE
-
-					@ECHO. 
-					@ECHO. @PARAMETRO_03
-					@ECHO. 3) Parametro = settaggio del Parametro
-					@ECHO. cambia questo parametro ---------: 			_IMPEGNI
-					@ECHO. 
 					SET CARTELLA_SALVATAGGI_S=AA_SALVATAGGI
 
 
@@ -210,9 +113,8 @@ goto NoteSalvataggi
 			@ECHO ------------------------- CARTELLA_SALVATAGGI_S
 			@ECHO.
 
-				@REM -----> PAUSE
 
-				@REM IMPOSTA I PARAMETRI DELLE VARIABILI DI AMBIENTE PRINCIPALI	 @PARAMETRO_06	
+				@REM IMPOSTA I PARAMETRI DELLE VARIABILI DI AMBIENTE PRINCIPALI		
 					@REM ................................................................................
 					@REM  @imposto@i@parametri_(IMPOSTA I PARAMETRI TEMPO, PATH ec...)
 
@@ -221,7 +123,7 @@ goto NoteSalvataggi
 									@REM ---->	MODELLO timeout /t 2 /nobreak > NUL
 									@REM        TIMEOUT /T %t% /NOBREAK
 									@REM ---->	
-									@SET t=2
+									@SET t=0
 									@echo Sospensione tempo per secondi: %t%
 								@REM .......................................................		
 
@@ -248,7 +150,7 @@ goto NoteSalvataggi
 							@REM @SET PATH_DEST_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\AA_SALVATAGGI\
 							@SET PATH_PART_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
 							
-							@SET FILE_S=ZIP_SALVATAGGI_IMPEGNI
+							@SET FILE_S=ZIP_SALVATAGGI_Impegni
 							@SET LISTA_FILE_S=Zip_N70_ElencoFile.txt
 
 							
@@ -288,7 +190,7 @@ goto NoteSalvataggi
 								@REM ---->	timeout /t 2 /nobreak > NUL
 								@REM ---->	
 								@TIMEOUT /T %t% /NOBREAK
-								@REM -----> PAUSE
+								@REM Pause
 
 						@REM ................................................................................			
 
@@ -305,13 +207,12 @@ goto NoteSalvataggi
 				@ECHO. controllo della cartella ............CARTELLA_SALVATAGGI_S :%CARTELLA_SALVATAGGI_S%
 				@ECHO. 
 
-					@REM -----> PAUSE
 
 								@REM SOSPENSIONE TEMPO IMPOSTATA CON T
 								@REM ---->	timeout /t 2 /nobreak > NUL
 								@REM ---->	
 								@TIMEOUT /T %t% /NOBREAK
-								@REM -----> PAUSE
+								@REM Pause
     
 	
     @CLS
@@ -351,7 +252,7 @@ goto NoteSalvataggi
 								@REM ---->	timeout /t 2 /nobreak > NUL
 								@REM ---->	
 								@TIMEOUT /T %t% /NOBREAK
-								@REM -----> PAUSE
+								@REM Pause
 					
 	@CLS 
 	@ECHO.05------------------------------- CICLO FOR CON GESTIONE DELLA DATA CORRENTE DA RECUPERARE SOTTO FORMA DI AAA MM GG @04
@@ -398,7 +299,7 @@ goto NoteSalvataggi
 								@REM ---->	timeout /t 2 /nobreak > NUL
 								@REM ---->	
 								@TIMEOUT /T %t% /NOBREAK
-								@REM -----> PAUSE
+								@REM Pause
 
 			
 
@@ -431,7 +332,7 @@ goto NoteSalvataggi
 								@REM ---->	timeout /t 2 /nobreak > NUL
 								@REM ---->	
 								@TIMEOUT /T %t% /NOBREAK
-								@REM -----> PAUSE
+								@REM Pause
 
 	@CLS 
 	@echo.06-------------------------------CHIAMO DECODIFICA @06
@@ -454,7 +355,6 @@ goto NoteSalvataggi
 
 							 
 						@CLS
-						@ECHO. 					@CHIAMO@DECODIFICA 
 						@ECHO. ===================================================================	
 						@ECHO. 			
 						@ECHO. 06.04 CHIAMO LA BAT DECODIFICA
@@ -507,9 +407,6 @@ goto NoteSalvataggi
 			
 							CD %PATH_PART_S%
 							DIR  
-
-
-							@REM -----> PAUSE
 							
 					
 				@ECHO.  
@@ -518,25 +415,24 @@ goto NoteSalvataggi
 				@ECHO. 
 
 
-				@ECHO.					SALVATAGGI CON Z7.ZIP @SALVATAGGI@ZIP
+				@ECHO.					SALVATAGGI CON Z7.ZIP
 				@ECHO. "@echo.07.02--------------------------------------------------"
 				@ECHO. 
 				@ECHO qui effettuo il salvataggio del .zip con il nome DATA CORENTE in formato  AAA MM GG
 				@ECHO. %PATH_DEST_S%
 				@ECHO. %TODAY%
 				@ECHO. _%FILE_S%
-					
-					@REM -----> PAUSE
+				
 
-				@ECHO. ATTIVO IL SALVATAGGIO CON 7ZIP SOLO I FILE DELL'ELENCO .TXT
+				@ECHO. ATTIVO IL SALVATAGGIO CON 7ZIP 
 				@ECHO.  
 				"C:\Program Files\7-Zip\7z.exe" u -tzip -r %PATH_DEST_S%\%TODAY%_%FILE_S% @Zip_N70_ElencoFile.txt
+				 
 				@ECHO. 
 				@ECHO. 
-					
-					@REM -----> PAUSE
+				
 			
-				@ECHO.					@SALVATAGGI@LISTA.TXT ELENCO FILE IN .TXT
+				@ECHO.					SALVATAGGI ELENCO FILE IN .TXT
 				@ECHO. "@echo.07.03--------------------------------------------------"
 				@ECHO  
 				@ECHO  qui salvo i file processati NEL .ZIP E CHE SI TROVA NELLA CARTELLA SALVATAGGI 
@@ -548,23 +444,13 @@ goto NoteSalvataggi
 				@ECHO tendo presente che è stato salvato in Program File ed ha lo spazio in mezzo per cui 
 				@ECHO occorre inserire tutto il percorso assoluto dell'eseguibile  tra "" altrimenti non lo
 				@ECHO legge l'eseguibile e da errore. CONTROLLARE SEMPRE che l'eseguibile si trovi in quella path.
-				@ECHO. 
-				@ECHO.  
+				@ECHO 
 
 				
 					
-				@ECHO.  
-					@ECHO 07.03.01
-					@ECHO Recupero i file processati nel .zip e li salvo in .txt
+					@ECHO 07.05 recupero i file processati nel .zip e li salvo in .txt
 					@ECHO VADO NELLA PATH DI DESTINAZIONE E SALVO L'ELENCO DEI FILE 
-					@ECHO VADO Nella path di destinazione denominata : PATH_DEST_S
-					@ECHO ed effettuo il dir nella path di destinazione scelta
-					@ECHO ... sembra che gia stiamo nella path di destinazione
 					CD %PATH_DEST_S%
-					DIR 
-					
-								@REM -----> PAUSE
-
 					"c:\Program Files\7-Zip\7z.exe" l %TODAY%_%FILE_S% -bsp1 > %TODAY%_%FILE_S%_LISTA.TXT
 					
 
@@ -574,23 +460,23 @@ goto NoteSalvataggi
 
 				@ECHO 07.05 RITORNO SUL DIRECTORY PRINCIPALE
 					@ECHO 
-			     		@CD ..
+					@CD ..
+									
+
 						
-						@DIR 					
-								@REM -----> PAUSE
-			    
-						
-		   						@ECHO.
-								@ECHO "@SOSPENSIONE@TEMPO IMPOSTATA CON T"
-		   						@ECHO.
+		   
+								@REM SOSPENSIONE TEMPO IMPOSTATA CON T
+								@REM ---->	timeout /t 2 /nobreak > NUL
+								@REM ---->	
 								@TIMEOUT /T %t% /NOBREAK
-    							@ECHO. 
-								
-								@REM -----> PAUSE
+								@REM Pause
+
+								@ECHO.
+	
 	@CLS
-	@echo.08------------------------------ @CHIAMO@CRIPTA  @08
+	@echo.08------------------------------ CHIAMO CRIPTA  @08
 					
-					@ECHO  					ESEGUO IL CRIPTA.BAT  @CHIAMO@CRIPTA
+					@ECHO  					ESEGUO IL CRIPTA.BAT
 					@ECHO .  -----------------------------------------------------------------------
 					@ECHO . 
 					@ECHO . 08.01. E ATTIVO IL CRIPTAGGIO !!!
@@ -599,9 +485,6 @@ goto NoteSalvataggi
 
 							@DIR Zip_N70_CRIPTA.bat
 							@CALL Zip_N70_CRIPTA.bat
-								
-							@REM -----> PAUSE
-
 							
 
 	
@@ -621,10 +504,10 @@ goto NoteSalvataggi
 				
 		   
 								@REM SOSPENSIONE TEMPO IMPOSTATA CON T
-								@REM timeout /t 2 /nobreak > NUL
-								
+								@REM ---->	timeout /t 2 /nobreak > NUL
+								@REM ---->	
 								@TIMEOUT /T %t% /NOBREAK
-								@REM -----> PAUSE
+								@REM Pause
 
 				@echo.								
 				@echo.								
@@ -663,7 +546,7 @@ goto NoteSalvataggi
 					@REM @file 	=	lista file da processare
 					@REM 		 	attenzione nella listafile.txt indicare la path e al posto di *.* occore solo * es. c:\dos\* pero per riportare la path completa
 					@REM 		 	della sottodirectory occorre il parametro -r = sottodirectory e nel file .txt indicare la path completa senza * es.
-					@REM 		 	c:\CASA\LINGUAGGI\ACCESS\
+					@REM 		 	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
 					@REM path   =	la path di salvataggio, per posizionare l'archivio in un'altra cartella occore scrivere il nome 
 					@REM 		 	Dell'archivio preceduto dalla path estesa es.
 					@REM 			C:\CASA\SALVATAGGI\archive.zip
@@ -676,7 +559,7 @@ goto NoteSalvataggi
 
 					@REM  ATTENZIONE in @Zip_N70_ElencoFile.txt  devi inserire solo le directory senza *.* e no le cartelle interne perchè altrimenti
 					@REM 				salva solo le sottocartelle e non la cartella madre. Quindi nel file.txt indicare le cartelle ORIGINE in questo
-					@REM  				modo: c:\CASA\LINGUAGGI\ACCESS\
+					@REM  				modo: c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
 					@REM  				modo: c:\CASA\LINGUAGGI\CPP\  ... ecc.
 
 
@@ -799,4 +682,3 @@ goto NoteSalvataggi
 
 				@REM *************************************************************************************************************************
 
-				

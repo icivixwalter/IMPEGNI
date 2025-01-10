@@ -1,0 +1,665 @@
+ Il volume nell'unit… C Š Acer
+ Numero di serie del volume: 9AC9-8549
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI
+
+10/01/2025  13:07    <DIR>          .
+10/01/2025  13:07    <DIR>          ..
+10/01/2025  13:01    <DIR>          00_SALVATAGGI_2023
+10/01/2025  13:01    <DIR>          AA_SALVATAGGI
+31/12/2024  14:58             4.854 AA__________________________________________________________________________AA.txt
+10/01/2025  12:58    <DIR>          MDB
+10/01/2025  12:58    <DIR>          OBJECT
+31/12/2024  13:07                53 Project_IMPEGNI_DI_SPESA.sublime-project
+10/01/2025  12:58            25.919 Project_IMPEGNI_DI_SPESA.sublime-workspace
+09/01/2025  13:45                14 README.md
+10/01/2025  12:58            30.363 ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT
+10/01/2025  12:58                56 ZIP_7ZIP_________________________________________________________________ZZ.txt
+10/01/2025  13:07        33.426.854 ZIP_IMPEGNI_DI_SPESA_SALVATAGGI.RAR
+10/01/2025  12:58             4.342 Zip_N70_CRIPTA.bat
+10/01/2025  12:58             4.862 Zip_N70_DECODIFICA.bat
+10/01/2025  12:58               933 Zip_N70_ElencoFile.txt
+10/01/2025  12:58               619 Zip_N70_ElencoFileESCLUSI.txt
+10/01/2025  12:58                 0 Zip_N70_RAR_____________________________________________________________RAR.txt
+10/01/2025  12:58                 0 Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
+15/11/2024  13:16             5.089 ZIP_RAR.BAT
+28/11/2020  14:16             2.361 Zip_rar_C.bat
+28/11/2020  16:25             2.179 Zip_rar_C_GitHub.bat
+10/01/2025  13:07                 0 zip__________________________________________________________________________ZZ.txt
+10/01/2025  12:58                56 ZZ________________________________________________________________________ZZ.txt
+28/11/2015  17:36                 0 ZZ__________________________________________________________________________ZZ.txt
+              19 File     33.508.554 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git
+
+09/01/2025  13:47                13 COMMIT_EDITMSG
+09/01/2025  13:46               308 config
+09/01/2025  13:45                73 description
+10/01/2025  12:58               102 FETCH_HEAD
+09/01/2025  13:46                24 HEAD
+09/01/2025  13:45    <DIR>          hooks
+10/01/2025  12:58             4.356 index
+09/01/2025  13:45    <DIR>          info
+09/01/2025  13:45    <DIR>          logs
+10/01/2025  12:58    <DIR>          objects
+10/01/2025  12:58                41 ORIG_HEAD
+09/01/2025  13:46    <DIR>          refs
+               7 File          4.917 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\hooks
+
+09/01/2025  13:45    <DIR>          .
+09/01/2025  13:45    <DIR>          ..
+09/01/2025  13:45               478 applypatch-msg.sample
+09/01/2025  13:45               896 commit-msg.sample
+09/01/2025  13:45             4.726 fsmonitor-watchman.sample
+09/01/2025  13:45               189 post-update.sample
+09/01/2025  13:45               424 pre-applypatch.sample
+09/01/2025  13:45             1.649 pre-commit.sample
+09/01/2025  13:45               416 pre-merge-commit.sample
+09/01/2025  13:45             1.374 pre-push.sample
+09/01/2025  13:45             4.898 pre-rebase.sample
+09/01/2025  13:45               544 pre-receive.sample
+09/01/2025  13:45             1.492 prepare-commit-msg.sample
+09/01/2025  13:45             2.783 push-to-checkout.sample
+09/01/2025  13:45             2.308 sendemail-validate.sample
+09/01/2025  13:45             3.650 update.sample
+              14 File         25.827 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\info
+
+09/01/2025  13:45    <DIR>          .
+09/01/2025  13:45    <DIR>          ..
+09/01/2025  13:45               240 exclude
+               1 File            240 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\logs
+
+09/01/2025  13:45    <DIR>          .
+09/01/2025  13:45    <DIR>          ..
+10/01/2025  12:58             1.382 HEAD
+09/01/2025  13:46    <DIR>          refs
+               1 File          1.382 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\logs\refs
+
+09/01/2025  13:46    <DIR>          .
+09/01/2025  13:46    <DIR>          ..
+09/01/2025  13:46    <DIR>          heads
+09/01/2025  13:46    <DIR>          remotes
+               0 File              0 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\logs\refs\heads
+
+09/01/2025  13:46    <DIR>          .
+09/01/2025  13:46    <DIR>          ..
+10/01/2025  12:58               959 calcolo
+               1 File            959 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\logs\refs\remotes
+
+09/01/2025  13:46    <DIR>          .
+09/01/2025  13:46    <DIR>          ..
+09/01/2025  13:46    <DIR>          origin
+               0 File              0 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\logs\refs\remotes\origin
+
+09/01/2025  13:46    <DIR>          .
+09/01/2025  13:46    <DIR>          ..
+10/01/2025  12:58               514 calcolo
+               1 File            514 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+09/01/2025  13:47    <DIR>          01
+10/01/2025  12:58    <DIR>          03
+09/01/2025  13:47    <DIR>          10
+10/01/2025  12:58    <DIR>          11
+09/01/2025  13:47    <DIR>          17
+09/01/2025  13:47    <DIR>          18
+09/01/2025  13:47    <DIR>          1b
+09/01/2025  13:47    <DIR>          1d
+09/01/2025  13:47    <DIR>          1e
+09/01/2025  13:47    <DIR>          24
+09/01/2025  13:47    <DIR>          28
+09/01/2025  13:47    <DIR>          33
+10/01/2025  12:58    <DIR>          43
+09/01/2025  13:47    <DIR>          4b
+09/01/2025  13:47    <DIR>          51
+09/01/2025  13:47    <DIR>          52
+09/01/2025  13:47    <DIR>          53
+10/01/2025  12:58    <DIR>          58
+10/01/2025  12:58    <DIR>          5c
+09/01/2025  13:47    <DIR>          6b
+09/01/2025  13:47    <DIR>          6f
+10/01/2025  12:58    <DIR>          72
+09/01/2025  13:45    <DIR>          7b
+10/01/2025  12:58    <DIR>          83
+09/01/2025  13:45    <DIR>          84
+09/01/2025  13:47    <DIR>          86
+09/01/2025  13:47    <DIR>          88
+09/01/2025  13:47    <DIR>          92
+09/01/2025  13:47    <DIR>          95
+10/01/2025  12:58    <DIR>          96
+09/01/2025  13:47    <DIR>          9e
+09/01/2025  13:47    <DIR>          a2
+09/01/2025  13:47    <DIR>          a4
+09/01/2025  13:47    <DIR>          a7
+09/01/2025  13:47    <DIR>          ac
+09/01/2025  13:47    <DIR>          b9
+10/01/2025  12:58    <DIR>          c2
+09/01/2025  13:47    <DIR>          c3
+09/01/2025  13:47    <DIR>          c8
+09/01/2025  13:47    <DIR>          d0
+10/01/2025  12:58    <DIR>          d3
+10/01/2025  12:58    <DIR>          d4
+09/01/2025  13:47    <DIR>          d7
+09/01/2025  13:47    <DIR>          da
+10/01/2025  12:58    <DIR>          dc
+09/01/2025  13:47    <DIR>          dd
+09/01/2025  13:47    <DIR>          e0
+09/01/2025  13:47    <DIR>          e2
+09/01/2025  13:47    <DIR>          e6
+09/01/2025  13:47    <DIR>          e7
+09/01/2025  13:47    <DIR>          e8
+10/01/2025  12:58    <DIR>          fd
+10/01/2025  12:58    <DIR>          fe
+09/01/2025  13:45    <DIR>          info
+09/01/2025  13:45    <DIR>          pack
+               0 File              0 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\01
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               225 47346777d148a614bae9f6adee0a17e3794a4d
+               1 File            225 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\03
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58                49 c8eeaf9230fec9961f4a010f16d2dea41a75d2
+               1 File             49 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\10
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47             1.309 44172fa748a00bf2aa810cd5993981daf85484
+               1 File          1.309 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\11
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+09/01/2025  13:45                29 52da993d76903a5f9f79d1026db1f639997195
+10/01/2025  12:58             6.319 ed37cb7a8f9fe36dbb7f6c73af7f98118d8fab
+               2 File          6.348 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\17
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47         3.092.078 37187ce7504b968f98c4ace990139c2a8dc41c
+               1 File      3.092.078 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\18
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47           262.230 94fa6e2eadf12a1baf08857bf24e1f76f711ff
+               1 File        262.230 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\1b
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47             6.519 19893f6c0f03371b577072adf8f5734eb3e10e
+               1 File          6.519 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\1d
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               293 8d141f014ad20ad9216f6add870b2c04914f1b
+               1 File            293 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\1e
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47             8.511 2179796567242a1512cb0b8f07892b30d13383
+               1 File          8.511 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\24
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47                58 db30311b340c8d78001f0fb705810ab77a8c38
+               1 File             58 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\28
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47         3.125.461 68ff90f9024597b00958a08817e83cfcf938ea
+               1 File      3.125.461 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\33
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47             1.101 8b5b226136c56c7aef4e98fa984ce9d1197a27
+               1 File          1.101 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\43
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58         3.072.898 16762ecafec1be1cb13d4605a59f508d2b2787
+               1 File      3.072.898 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\4b
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47         2.854.723 fc341846e4cd64b2229017afd755259dcd009d
+               1 File      2.854.723 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\51
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               358 7b575400856be6ff89c29c80361cb9e82a62fa
+               1 File            358 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\52
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47             5.212 ea322db96993b315aace7312062460a60a9dcd
+               1 File          5.212 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\53
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               488 4f2dc4cbb5c5f01e02603699fe0acb2d506500
+               1 File            488 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\58
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58               438 bfc0f494417de7ff23eb7516f890759e090437
+               1 File            438 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\5c
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58         3.031.835 4c82c64a02d1d14ecd139fd5da0b134f04e3ed
+               1 File      3.031.835 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\6b
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               199 1767248cdf5fe4ee8592451a4e54be7fb28616
+               1 File            199 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\6f
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47            13.340 2400d0f28ecfbddfbebe0a014bf12157ffb58c
+               1 File         13.340 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\72
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58               324 4b85ebb1d68f4a58ffe5ab96edfb563576222b
+               1 File            324 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\7b
+
+09/01/2025  13:45    <DIR>          .
+09/01/2025  13:45    <DIR>          ..
+09/01/2025  13:45                54 2cba636bd84fb131e7cb4df2faeeae3ffa0109
+               1 File             54 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\83
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+09/01/2025  13:47               433 9bdb0c2c18009fe724945876f24c4081c46064
+10/01/2025  12:58             1.636 b126059fa5c956c8ec8c1ba56017de880d699a
+               2 File          2.069 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\84
+
+09/01/2025  13:45    <DIR>          .
+09/01/2025  13:45    <DIR>          ..
+09/01/2025  13:45               143 021828d00bfcf769e36674aafe4006c74937de
+               1 File            143 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\86
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               206 19c7a77664fb55093169631323dc5205d47368
+               1 File            206 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\88
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47           230.011 883e08fb242ca83abdcdc36a78cd1119e8dbc0
+               1 File        230.011 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\92
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               650 4756e9d1da34f8cf7fd83a37633c24b5442d22
+               1 File            650 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\95
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               535 4d7dcd67a94934b9f212d077a103abf6876fca
+               1 File            535 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\96
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58               640 8296e47ca7728c2b765d549f84f82992f594aa
+               1 File            640 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\9e
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               464 8e3cbb6a55d64bc9991e44bc7874ce732caaef
+               1 File            464 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\a2
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47             1.512 67216719b0b52482adb8c73caf169dd97fd1a8
+               1 File          1.512 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\a4
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               178 442a0c77f5baf5113d79ecae75c7dbdc30d1cf
+               1 File            178 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\a7
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47         2.190.696 52df9480aec15a619a541a0f3e2f78b6d319b9
+               1 File      2.190.696 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\ac
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               199 11734a4c593c80bf2ed2a5220faff3e428d5d8
+09/01/2025  13:47           258.732 ebb78e57c0a1ed0e78524e529707fe26d9f7f7
+               2 File        258.931 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\b9
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47             1.580 2d3abd8fa460bb00c501cc0fcc952e824a68e9
+               1 File          1.580 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\c2
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58               375 a0a0823b8351061ed1d94f8fbfd4676e003df8
+               1 File            375 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\c3
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               666 c8897995408712ba8934c42f9a627b126ca60d
+               1 File            666 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\c8
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47         2.977.610 b5588c2b44b6e943d2490d7daba9966a0d5ef8
+               1 File      2.977.610 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\d0
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               328 39ec9e3a4ee914bab7d3fe6d45634d8ec70543
+               1 File            328 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\d3
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58               456 1298c08ba7a6404635394fdf91f856535ec620
+               1 File            456 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\d4
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58               181 4ca2ea06b5c0c09b4ab3638276cfd5ed86a5e7
+               1 File            181 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\d7
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               468 b0cb087b6ea3335063ef8c10de011679d8d4c3
+               1 File            468 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\da
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47             1.257 1df56aebaacad2e48d25cafec34faa223f00ec
+               1 File          1.257 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\dc
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58               154 29bbad2450e1ca1a4db57e9392e87e987f80ca
+               1 File            154 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\dd
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47         4.893.707 d1bcbe6bac551c47da210ffc7719a574d6e5af
+               1 File      4.893.707 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\e0
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               806 db3f0057d5d787592fce9b1d5bf3711c476f63
+               1 File            806 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\e2
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               598 26bbb86f1c8c093347398986b744396a73500c
+               1 File            598 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\e6
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47                15 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+               1 File             15 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\e7
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47               375 0298ae2397296943b8c74ab253a02f52895ca8
+               1 File            375 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\e8
+
+09/01/2025  13:47    <DIR>          .
+09/01/2025  13:47    <DIR>          ..
+09/01/2025  13:47                85 43d836a74d8f7f535dbec5c4299eabcfc0e1cb
+               1 File             85 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\fd
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58             1.486 3239622ac3a0cde9d9da9a2f5acd42a5c57e72
+               1 File          1.486 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\fe
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58             9.582 2dc2f5957f3d5b7c18d65daadc02523d61dd78
+               1 File          9.582 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\info
+
+09/01/2025  13:45    <DIR>          .
+09/01/2025  13:45    <DIR>          ..
+               0 File              0 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\objects\pack
+
+09/01/2025  13:45    <DIR>          .
+09/01/2025  13:45    <DIR>          ..
+               0 File              0 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\refs
+
+09/01/2025  13:46    <DIR>          .
+09/01/2025  13:46    <DIR>          ..
+10/01/2025  12:58    <DIR>          heads
+09/01/2025  13:46    <DIR>          remotes
+09/01/2025  13:45    <DIR>          tags
+               0 File              0 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\refs\heads
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58                41 calcolo
+               1 File             41 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\refs\remotes
+
+09/01/2025  13:46    <DIR>          .
+09/01/2025  13:46    <DIR>          ..
+10/01/2025  12:58    <DIR>          origin
+               0 File              0 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\refs\remotes\origin
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58                41 calcolo
+               1 File             41 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\.git\refs\tags
+
+09/01/2025  13:45    <DIR>          .
+09/01/2025  13:45    <DIR>          ..
+               0 File              0 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\00_SALVATAGGI_2023
+
+10/01/2025  13:01    <DIR>          .
+10/01/2025  13:01    <DIR>          ..
+10/01/2025  13:01             3.406 2025_01_10_ZIP_SALVATAGGI_IMPEGNI.GE614
+10/01/2025  13:01               128 2025_01_10_ZIP_SALVATAGGI_IMPEGNI_LISTA.TXT
+               2 File          3.534 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\AA_SALVATAGGI
+
+10/01/2025  13:01    <DIR>          .
+10/01/2025  13:01    <DIR>          ..
+               0 File              0 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\MDB
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+10/01/2025  12:58        15.728.640 LLPP_IMPEGNI_ATTIVA_GESTIONE.mdb
+01/01/2025  09:31        15.728.640 LLPP_IMPEGNI_ATTIVA_GESTIONE_mod_01.mdb
+02/01/2025  15:15        15.728.640 LLPP_IMPEGNI_ATTIVA_GESTIONE_Riordino.mdb
+10/01/2025  12:58        15.728.640 LLPP_IMPEGNI_ATTIVA_GESTIONE_Riordino_2.mdb
+19/12/2024  19:50         1.572.864 LLPP_IMPEGNI_DF02_ATTI_DI_IMPEGNO.mdb
+08/01/2025  09:43        18.612.224 LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.mdb
+19/12/2024  20:03         1.490.944 LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA.mdb
+30/12/2024  16:03        10.694.656 X_IMPEGNI_RICREA_OGGETTI.mdb
+30/12/2024  15:34            11.544 X_IMPEGNI_RICREA_OGGETTI_TabellaDiRiconversione.xlsx
+               9 File     95.296.792 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\OBJECT
+
+10/01/2025  12:58    <DIR>          .
+10/01/2025  12:58    <DIR>          ..
+09/01/2025  13:46    <DIR>          BAT
+31/08/2022  16:06             3.075 IMPEGNI_ANALISI.MD
+09/01/2025  13:46    <DIR>          PDF
+09/01/2025  13:46    <DIR>          QUERY
+10/01/2025  12:58               851 README.MD
+               2 File          3.926 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\OBJECT\BAT
+
+09/01/2025  13:46    <DIR>          .
+09/01/2025  13:46    <DIR>          ..
+26/11/2020  09:40               998 APRI_CARTELLA_IMPEGNI_DI_SPESA.bat
+26/11/2020  09:45               392 APRI_IMPEGNI_DI_SPESA_ANALISI_TEX.bat
+26/11/2020  12:57               979 APRI_OGGETTI_DATABASE_IMPEGNI_DI_SPESA.bat
+29/10/2020  14:28             1.165 IMPEGNI_DI_SPESA_APRI_TUTTO.BAT.bat
+               4 File          3.534 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\OBJECT\PDF
+
+09/01/2025  13:46    <DIR>          .
+09/01/2025  13:46    <DIR>          ..
+19/11/2024  14:41           259.269 LLPP_IMPEGNI_Frm_S01_12_GRUPPO_IMPEGNI_ANNO.pdf
+               1 File        259.269 byte
+
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\OBJECT\QUERY
+
+09/01/2025  13:46    <DIR>          .
+09/01/2025  13:46    <DIR>          ..
+31/12/2024  13:07             1.828 IMPEGNI_Qry01_IMPEGNI_QUERY_(CONTROLLARE).txt
+31/12/2024  13:08             8.215 IMPEGNI_Qry19_nuovo_Gruopp_in_lavorazione_(CONTROLLARE).txt
+31/12/2024  13:08             1.828 IMPEGNI_Query_01_IMPEGNI_QUERY_(CONTROLLARE).txt
+31/12/2024  13:08             4.612 LLPP_IMPEGNI_Qry01_19_ELENCO_IMPEGNI_COD_PRAT_(CONTROLLARE).txt
+               4 File         16.483 byte
+
+     Totale file elencati:
+             124 File    155.185.828 byte
+             227 Directory  129.526.792.192 byte disponibili
