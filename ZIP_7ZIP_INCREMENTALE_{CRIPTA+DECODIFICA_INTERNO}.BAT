@@ -24,7 +24,7 @@
 		@ECHO. 
 		@ECHO. cambia questo parametro ---------: 			c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\ 
 		@ECHO. 
-		@ECHO. cambia questo parametro ---------: 			ZIP_SALVATAGGI_Impegni
+		@ECHO. cambia questo parametro ---------: 			_SALVATAGGI_IMPEGNI
 		@ECHO. 
 		@ECHO. 
 		@ECHO. 
@@ -35,9 +35,9 @@
 		@ECHO. --------------------------------------------------------------------------------------------------------
 		@ECHO. LA PATH DI DESTINAZIONE PER I SALVATAGGI 	=	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\%CARTELLA_SALVATAGGI_S%
 		@ECHO. LA CARTELLA SALVATAGGI CREATA O ESISTENTE 	=  	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\AA_SALVATAGGI\
-		@ECHO. LA PATH DI PARTENZA				= 	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
-		@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO 			= 	ZIP_SALVATAGGI_Impegni
-		@ECHO. LISTA FILE UTILIZZATA				= 	Zip_N70_ElencoFile.txt
+		@ECHO. LA PATH DI PARTENZA							= 	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
+		@ECHO. FILE 7ZIP, RAR DI SALVATAGGIO 				= 	ZIP_SALVATAGGI_SALVATAGGI_IMPEGNI
+		@ECHO. LISTA FILE UTILIZZATA 						= 	Zip_N70_ElencoFile.txt
 		@ECHO. --------------------------------------------------------------------------------------------------------
 		@ECHO.
 
@@ -150,7 +150,7 @@
 							@REM @SET PATH_DEST_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\AA_SALVATAGGI\
 							@SET PATH_PART_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
 							
-							@SET FILE_S=ZIP_SALVATAGGI_Impegni
+							@SET FILE_S=ZIP_SALVATAGGI_SALVATAGGI_IMPEGNI
 							@SET LISTA_FILE_S=Zip_N70_ElencoFile.txt
 
 							
@@ -427,7 +427,6 @@
 				@ECHO. ATTIVO IL SALVATAGGIO CON 7ZIP 
 				@ECHO.  
 				"C:\Program Files\7-Zip\7z.exe" u -tzip -r %PATH_DEST_S%\%TODAY%_%FILE_S% @Zip_N70_ElencoFile.txt
-				 
 				@ECHO. 
 				@ECHO. 
 				
@@ -450,8 +449,13 @@
 					
 					@ECHO 07.05 recupero i file processati nel .zip e li salvo in .txt
 					@ECHO VADO NELLA PATH DI DESTINAZIONE E SALVO L'ELENCO DEI FILE 
+					@ECHO ................... controllo path di destinazione:
+					@ECHO ...... %PATH_DEST_S%
+					@ECHO ...... file da ricercare %TODAY%_%FILE_S%
+					@ECHO .................................................................. 
+				
 					CD %PATH_DEST_S%
-					"c:\Program Files\7-Zip\7z.exe" l %TODAY%_%FILE_S% -bsp1 > %TODAY%_%FILE_S%_LISTA.TXT
+					"c:\Program Files\7-Zip\7z.exe" l %TODAY%_%FILE_S%.zip -bsp1 > %TODAY%_%FILE_S%_LISTA.TXT
 					
 
 				@ECHO.  					
@@ -546,7 +550,7 @@
 					@REM @file 	=	lista file da processare
 					@REM 		 	attenzione nella listafile.txt indicare la path e al posto di *.* occore solo * es. c:\dos\* pero per riportare la path completa
 					@REM 		 	della sottodirectory occorre il parametro -r = sottodirectory e nel file .txt indicare la path completa senza * es.
-					@REM 		 	c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
+					@REM 		 	c:\CASA\LINGUAGGI\ACCESS\
 					@REM path   =	la path di salvataggio, per posizionare l'archivio in un'altra cartella occore scrivere il nome 
 					@REM 		 	Dell'archivio preceduto dalla path estesa es.
 					@REM 			C:\CASA\SALVATAGGI\archive.zip
@@ -559,7 +563,7 @@
 
 					@REM  ATTENZIONE in @Zip_N70_ElencoFile.txt  devi inserire solo le directory senza *.* e no le cartelle interne perchè altrimenti
 					@REM 				salva solo le sottocartelle e non la cartella madre. Quindi nel file.txt indicare le cartelle ORIGINE in questo
-					@REM  				modo: c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
+					@REM  				modo: c:\CASA\LINGUAGGI\ACCESS\
 					@REM  				modo: c:\CASA\LINGUAGGI\CPP\  ... ecc.
 
 
