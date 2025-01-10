@@ -1,0 +1,11 @@
+//ATTENZIONE QUESTE SONO LE CARTELLE ESCLUSE
+//............................................................................
+//nota: per ora non si riesce a capire come indicare una lista di file da
+//escludere perche sarebbero 2 la PRIMA INCLUDE  e la SECONDA ESCLUDE
+//comandi: per l'esclusione del file :  -x@ 	= esclude il file o il txt associato (senza ricorsiva)
+//	 	 								-xr@	= r esclude anche le sottocartelle, ricorsiva anche le sottocartelle
+//escludo una cartella
+
+c:\CASA\CDM\LeTorri\2023\TMP\
+//escludo un file
+"A__________________________2023_________________________________________A.txt"
