@@ -1,0 +1,58 @@
+
+7-Zip 24.04 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-04-05
+
+Scanning the drive for archives:
+  0M Scan         1 file, 16135089 bytes (16 MiB)
+
+Listing archive: 2025_01_10_ZIP_SALVATAGGI_SALVATAGGI_IMPEGNI.zip
+
+--
+Path = 2025_01_10_ZIP_SALVATAGGI_SALVATAGGI_IMPEGNI.zip
+Type = zip
+Physical Size = 16135089
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2025-01-10 20:16:15 ....A         4854         1113  AA__________________________________________________________________________AA.txt
+2025-01-10 20:16:15 D....            0            0  MDB
+2025-01-10 20:16:15 ....A     15728640      2389918  MDB\LLPP_IMPEGNI_ATTIVA_GESTIONE.mdb
+2025-01-10 20:16:15 ....A     15728640      2343906  MDB\LLPP_IMPEGNI_ATTIVA_GESTIONE_mod_01.mdb
+2025-01-10 20:16:15 ....A     15728640      2497364  MDB\LLPP_IMPEGNI_ATTIVA_GESTIONE_Riordino.mdb
+2025-01-10 20:16:15 ....A     15728640      2420559  MDB\LLPP_IMPEGNI_ATTIVA_GESTIONE_Riordino_2.mdb
+2025-01-10 20:16:15 ....A      1572864       211369  MDB\LLPP_IMPEGNI_DF02_ATTI_DI_IMPEGNO.mdb
+2025-01-10 20:16:15 ....A     18612224      3996033  MDB\LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.mdb
+2025-01-10 20:16:15 ....A      1490944       216816  MDB\LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA.mdb
+2025-01-10 20:16:15 ....A     10694656      1787528  MDB\X_IMPEGNI_RICREA_OGGETTI.mdb
+2025-01-10 20:16:15 ....A        11544         8407  MDB\X_IMPEGNI_RICREA_OGGETTI_TabellaDiRiconversione.xlsx
+2025-01-10 20:16:15 D....            0            0  OBJECT
+2025-01-10 20:16:15 D....            0            0  OBJECT\BAT
+2025-01-10 20:16:15 ....A          998          450  OBJECT\BAT\APRI_CARTELLA_IMPEGNI_DI_SPESA.bat
+2025-01-10 20:16:15 ....A          392          212  OBJECT\BAT\APRI_IMPEGNI_DI_SPESA_ANALISI_TEX.bat
+2025-01-10 20:16:15 ....A          979          338  OBJECT\BAT\APRI_OGGETTI_DATABASE_IMPEGNI_DI_SPESA.bat
+2025-01-10 20:16:15 ....A         1165          512  OBJECT\BAT\IMPEGNI_DI_SPESA_APRI_TUTTO.BAT.bat
+2025-01-10 20:16:15 ....A         3075          993  OBJECT\IMPEGNI_ANALISI.MD
+2025-01-10 20:16:15 D....            0            0  OBJECT\PDF
+2025-01-10 20:16:15 ....A       259269       228909  OBJECT\PDF\LLPP_IMPEGNI_Frm_S01_12_GRUPPO_IMPEGNI_ANNO.pdf
+2025-01-10 20:16:15 D....            0            0  OBJECT\QUERY
+2025-01-10 20:16:15 ....A         1828          605  OBJECT\QUERY\IMPEGNI_Qry01_IMPEGNI_QUERY_(CONTROLLARE).txt
+2025-01-10 20:16:15 ....A         8215         1461  OBJECT\QUERY\IMPEGNI_Qry19_nuovo_Gruopp_in_lavorazione_(CONTROLLARE).txt
+2025-01-10 20:16:15 ....A         1828          605  OBJECT\QUERY\IMPEGNI_Query_01_IMPEGNI_QUERY_(CONTROLLARE).txt
+2025-01-10 20:16:15 ....A         4612         1176  OBJECT\QUERY\LLPP_IMPEGNI_Qry01_19_ELENCO_IMPEGNI_COD_PRAT_(CONTROLLARE).txt
+2025-01-10 20:16:15 ....A          851          439  OBJECT\README.MD
+2025-01-10 20:16:15 ....A           53           53  Project_IMPEGNI_DI_SPESA.sublime-project
+2025-01-10 20:16:15 ....A        25919         5449  Project_IMPEGNI_DI_SPESA.sublime-workspace
+2025-01-10 20:16:15 ....A           14           14  README.md
+2025-01-10 20:02:49 ....A        26144         6847  ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT
+2024-05-18 10:40:44 ....A           56           51  ZIP_7ZIP_________________________________________________________________ZZ.txt
+2024-03-03 21:17:44 ....A         4180         1331  Zip_N70_CRIPTA.bat
+2024-03-17 17:18:44 ....A         4735         1440  Zip_N70_DECODIFICA.bat
+2025-01-10 19:51:07 ....A          971          359  Zip_N70_ElencoFile.txt
+2025-01-10 19:54:31 ....A          648          318  Zip_N70_ElencoFileESCLUSI.txt
+2025-01-09 20:03:21 ....A            0            0  Zip_N70_RAR_____________________________________________________________RAR.txt
+2024-05-18 10:40:44 ....A            0            0  Zip_N70____________________________________________CRIPTA_DECODIFICA.txt
+2025-01-10 20:16:15 ....A         5089         1413  ZIP_RAR.BAT
+2025-01-10 20:16:15 ....A         2361          618  Zip_rar_C.bat
+2025-01-10 20:16:15 ....A         2179          551  Zip_rar_C_GitHub.bat
+2025-01-10 20:16:15 ....A            0            0  ZZ__________________________________________________________________________ZZ.txt
+------------------- ----- ------------ ------------  ------------------------
+2025-01-10 20:16:15           95657207     16127157  36 files, 5 folders
