@@ -1,20 +1,24 @@
-//ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva 
-//questo Ã¨ il secondo esempio con path e file liberi senza .\ e sembra che funziona
-//............................................................................//
-MDB\
-OBJECT\
+ Il volume nell'unit… C Š Acer
+ Numero di serie del volume: 9AC9-8549
 
+ Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI
 
-AA__________________________________________________________________________AA.txt
+[.]
+[..]
 .gitignore
+A.TXT
+[AA_SALVATAGGI]
+AA__________________________________________________________________________AA.txt
 git_OpenGitHub.bat
 git_PULL.BAT
 git_STATUS+ADD+COMMIT+PUSH.BAT
+[MDB]
+[OBJECT]
 Project_IMPEGNI_DI_SPESA.sublime-project
 Project_IMPEGNI_DI_SPESA.sublime-workspace
 README.md
-ZIP_7ZIP_________________________________________________________________ZZ.txt
 ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT
+ZIP_7ZIP_________________________________________________________________ZZ.txt
 Zip_N70_CRIPTA.bat
 Zip_N70_DECODIFICA.bat
 Zip_N70_ElencoFile.txt
@@ -25,3 +29,5 @@ ZIP_RAR.BAT
 Zip_rar_C.bat
 Zip_rar_C_GitHub.bat
 ZZ__________________________________________________________________________ZZ.txt
+              21 File         86.052 byte
+               5 Directory  126.604.709.888 byte disponibili
