@@ -27,10 +27,16 @@ SET PATH_S=c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
 	@REM  elimina una directory (RMDIR) + le sottodirectory (/S) senza conferma (/Q)
 	rmdir /s /q "c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\OBJECT"
 
-@REM aggiorno git
+@REM ALLINEO LA REPOSITORY LOCALE CON GITHUB
+	
+	@REM Aggiorna le informazioni dal remoto
+	git fetch origin	
+	
+	@REM Sovrascrive completamente i file locali con quella dalla branch remota
+	git reset --hard origin/calcolo
+
+	@REM Verifica che la directory locale sia ora identica al repository remoto 
 	git status
-	git add .
-	git commit -m "cancellato directory MDB+OBJECT"
 	
 
 @ECHO  .
