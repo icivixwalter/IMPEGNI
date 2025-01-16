@@ -1,0 +1,86 @@
+@query@controllare_(vedere se è utile e funzionante)
+
+	
+PROPRIETA_QUERY
+	//--------------------------------------------------------------------------------------------//
+	//PATH 					-> c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI_DI_SPESA\IMPEGNI_DI_SPESA_DOC_TXT_XLS_ANALISI\
+	//NOME_QUERY			-> LLPP_IMPEGNI_Qry01_19_ELENCO_IMPEGNI_COD_PRAT
+	//--------------------------------------------------------------------------------------------//
+	//Le proprieta della Query
+	//descrizione			-> 
+	//Visualizzazione predefinita	-> Foglio dati
+	//Blocco record					-> Nessun blocco
+	//Timeout ODBC					-> 60
+	//Filtro						-> 
+	//Ordina per					-> 
+	//Orientamento					-> Da sinistra a destra
+	//Nome foglio dati second.		-> LLPP_ATTI_Qry01_15_UNION_Atti+Allegati_TUTTI
+	//Collega campi secondari		-> 
+	//Collega campi MASTER			-> 
+	//Altezza foglio dati sec.		-> 0cm
+	//Altezza foglio dati esp.		-> No
+	//Filtra a caricamento			-> No
+	//Ordina a caricamento			-> Si
+	//--------------------------------------------------------------------------------------------//
+
+	NOTE                    	-> 	Query di estrazione degli impegni con alla fine un campo
+								testo di stampa dei codici essenziali per data corrente
+		
+
+STRUTTURA QUERY
+	//===========================================================================================//
+		
+
+		LLPP_IMPEGNI_Qry01_19_ELENCO_IMPEGNI_COD_PRAT
+
+			SELECT "Tutti gli impegni-> " & 
+			"LLPP_IMPEGNI_Qry01_19_ELENCO_IMPEGNI_COD_PRAT" 								AS [TXTQuery], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[CodPratica_s]								AS [CODICE_PRAT], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[NroPratica_i]  							AS [NRO_PRAT], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[AnnoAtto_i]  								AS [ANNO],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[TipoAtto_s]  								AS [TIPO_ATTO], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[NroAtto_lng] 								AS [NRO_ATTO], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[DataAtto_d]  								AS [DATA], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[OggettoAtto_m]  							AS [OGGETTO_ATTO], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[NoteAtto_s] 								AS [NOTE_ATTO], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[FileAtto_s] 								AS [FILE_ATTO], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[PathFileAtto_s]							AS [PATH], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[Lavorato_s] 								AS [LAVORATO], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[NoteBrevi_ATTI_DI_IMPEGNO_s] 				AS [NOTE_BREVI_IMP], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[TIPO_DI_IMPEGNO_s]							AS [TIPO_IMPEGNO], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[CLASS_ATTI_DI_IMPEGNO_s] 					AS [CLASS_ATTI], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[CIG_CODICE_s] 								AS [CIG],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[CUP_CODICE_s] 								AS [CUP],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[NoteCIG_s] 								AS [NOTE_CIG],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[ALB_b ]									AS [ALB],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[TRASP_b] 									AS [TRASP],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[CF_s] 										AS [CF],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[PIVA_s] 									AS [PIVA], 
+			"->" 																			AS [TXTCampi],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].*, 											
+			"->" 																			AS [TxOrd],
+			[CLASS_ATTI_DI_IMPEGNO_s] & "_" & [ANNO] 										AS [TxtKeyTmp],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[CodPratica_s] 								AS [CODICE_PRAT_key],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[IDGestione] 								AS [IDGestione_KEY],
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[AnnoAtto_i] 								AS [ANNO_Key],
+
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[CLASS_ATTI_DI_IMPEGNO_s] 					AS [CLASS_ATTI_Key], 
+			[DATA_C] & "_" & [CLASS_ATTI] & "-" & [FILE_ATTO] & "- " & 
+			[CODICE_PRAT] & " - " & [NRO_PRAT] & " -> " & [NoteAtto_s] & " - " & [NoteEx_m] AS TXTSTAMPA_ELENCO, Year(Date()) & "_" & [MONTH] & "_" & [DAY] 
+			AS DATA_C, IIf(Month(Date())<10,"0" & Month(Date()),Month(Date())) AS [MONTH], IIf(Day(Date())<10,"0" & Day(Date()),Day(Date())) AS [DAY]
+
+			FROM [LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO]
+
+			WHERE ((([LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[CodPratica_s])="LPDD" 
+			Or ([LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[CodPratica_s])="UTILE"))
+
+			ORDER BY 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[CodPratica_s], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[NroPratica_i], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[AnnoAtto_i], 
+			[LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO].[AnnoAtto_i];
+
+
+
+	//===========================================================================================//
+
