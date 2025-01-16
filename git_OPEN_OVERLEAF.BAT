@@ -1,23 +1,17 @@
 @REM  cd.. devi posizionarti su git_desktop
-CD c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MENU\
+CD c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
 
 dir 
 
-@REM  apro la pagina web Profilo di EDGE quello personale si trova qui:
-@rem 	c:\Users\walter.rossi\AppData\Local\Microsoft\Edge\User Data\Personale\
-
-
-
-rem start msedge https://www.overleaf.com/project/678766715c38d59052417047
-
-rem start msedge --profile-directory="Personale" http://intranet/	
-
-start msedge --profile-directory="Personale" https://www.overleaf.com/project/6755e159c2770881d5686966	
-
-rem start msedge --profile-directory="Profilo 1" http://intranet/
-
-@rem start msedge --user-data-dir="C:\Users\walter.rossi\AppData\Local\Microsoft\Edge\User Data\Personale"
-
+@ECHO  APRO OVERLEAF MENU
+@ECHO  .......................................................
+@ECHO  .
+@ECHO  .
+@ECHO  .
+start msedge --profile-directory="Personale" https://www.overleaf.com/project/673f14af2c91e5134eb44afa	
+@ECHO  .
+@ECHO  .
+@ECHO  .......................................................
 
 
 @rem pausa di 2 secondi per consentire il commit
