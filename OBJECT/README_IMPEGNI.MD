@@ -1,5 +1,6 @@
 
-PROGETTO_IMPENGI_MDB
+
+# PROGETTO_IMPEGNI_MDB
         Note
             Il progetto di gestione oggetti pemette la gestione di tutti gli oggetti del db e viene classificato con il
             codice oggetto
@@ -17,44 +18,7 @@ PROGETTO_IMPENGI_MDB
             @db.tutte.le.tabelle.@MSys
             @db.tabelle.tutte.@MSys
 
-
-
-    FORM_MASTER
-        Note
-            la form principale per la gestione degli impegni è la LLPP_IMPEGNI_Frm_M00_GESTIONE_IMPEGNI
-
-        LLPP_IMPEGNI_Frm_M00_GESTIONE_IMPEGNI  
-            Note
-                Form master non ha query sottostanti ma solo sottoform.
-
-            TAB_CONTROLL
-                Note nel tab controll vengono visualizzate le seguenti form NELLE SEGUENTI
-                PAGINE: GRUPPO_IMPEGNI_ANNO (01), GRUPPO IMPEGNI CLASSIFICAZIONE 02
-                
-                    pag_01: LLPP_IMPEGNI_Frm_S01_12_GRUPPO_IMPEGNI_ANNO
-                    pag_02: LLPP_IMPEGNI_Frm_S01_13_GRUPPO_IMPEGNI_CLASSIFICAZIONE
-
-    FORM_SECONDARIE ***
-                !   
-                    QUERY
-                !
-                !
-
-        XMsys_DF11_PROGETTI_Frm02_S01_GROUPObj 
-            Note
-                2° sottoform che elenca gli oggetti appartenenti al progetto, QUERY, FORM, TABELLE ECC...
-                Query_base  = Msys_DF11_PROGETTI_Qry01_11_GROUP_OGGETTI 
-        
-        XMSys_ELENCO_ObjProgetti_Frm_S01_Tutti 
-            Note
-                3° sottoform che elenca tutti gli oggetti che appartengono al progetto della form master
-                Query_base  = MSys_ELENCO_ObjProgetti_Qry01_01_TUTTI
-
-
-
-
-
-    QUERY ****
+    	QUERY ****
         X = todo: da sistemare
             MSys_QUERY**
                  Note
@@ -67,10 +31,7 @@ PROGETTO_IMPENGI_MDB
                             dove vengono salvata tutte le tabelle del db?
                             tutte le tabelle del db
 
-    
-
-    
-    TABELLE ***
+    	TABELLE ***
             Msys_DF11_PROGETTI
 
                  Note
@@ -83,4 +44,39 @@ PROGETTO_IMPENGI_MDB
                         @tutte.le.tabelle.db.@MSys
                         @MSys.tabelle
 
-                    
+
+# REVISIONI ED AGGIORNAMENTI
+### 2024.12.31_RIDENOMINAZIONE = PROGETTO NUOVO
+		Creato un nuovo progetto in cui ho ridenominato tutti gli oggetti
+		per la gestione degli impegni in modo che possono essere filtrati
+		con il codice generale ---> LLPP_IMPEGNI_Tb01
+
+		TABELLA OGGETTI E SUOI OGGETTI
+			Per gestire gli oggetti degli impegni IN MOODO ORDINATO	 e viene creata la tabella oggetti  per gestire le query, le form, i report ecc.. CHE sono estratti in base al codice generale:
+
+				codice---> 01_OGGETTI
+
+			
+			1) creo la tabella
+				LLPP_IMPEGNI_Tb01_OGGETTI
+
+			2) creo la query
+				LLPP_IMPEGNI_Tb01Qry_01_OGGETTI
+			3) creo la FORM MASTER E DETAIL
+				LLPP_IMPEGNI_Tb01Frm01_M01_GEST_OGGETTI
+				LLPP_IMPEGNI_Tb01Frm01_S01_OGGETTI
+
+
+
+		FORM MASTER RICREATA
+			
+			LLPP_IMPEGNI_Tb01FrmS01_12_GRUPPO_IMPEGNI_ANNO *** DA FARE ***
+
+### 2025.01.22_LLPP_IMPEGNI_Frm_S99_UTILITA_IMPORTA_OGGETTI = BLOCCATO I COMANDI
+	
+	COMANDI UTILITA 
+		sono stati bloccati nel pagina e nell'evento ora non vengono piu sovrapposti.
+
+
+	
+
