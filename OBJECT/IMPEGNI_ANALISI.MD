@@ -1,21 +1,4 @@
 
-PROGETTO_IMPENGI_MDB
-        Note
-            Il progetto di gestione oggetti pemette la gestione di tutti gli oggetti del db e viene classificato con il
-            codice oggetto
-            
-            GESTIRE LE ESPORTAZIONI
-            Il tipo di oggetto, si riferisce al progetto di esportazione degli oggetti di gestione delle tabelle, query, form ecc
-            del database corrente.
-            Per gestire i collegamenti e le esportazioni occorrono i seguenti oggetti:
-
-            Elenco oggetti da esportare
-
-            @MSys.progetto
-            @progetto.esporta.@MSys
-            @tutte.le.tabelle.db.@MSys
-            @db.tutte.le.tabelle.@MSys
-            @db.tabelle.tutte.@MSys
 
 
 
@@ -54,33 +37,9 @@ PROGETTO_IMPENGI_MDB
 
 
 
-    QUERY ****
-        X = todo: da sistemare
-            MSys_QUERY**
-                 Note
-                    Tabella di salvataggio di tutte le query
-                    @progetto.esporta.@MSys
-                    @tutte.le.query.db
-                    @db.tutte.le.query
-                    @db.query.tutte
-                        faq:
-                            dove vengono salvata tutte le tabelle del db?
-                            tutte le tabelle del db
 
     
 
     
-    TABELLE ***
-            Msys_DF11_PROGETTI
-
-                 Note
-                    Tabella base che serve a gestire tutti i PROGETTI MDB insieme a quello principale degli OGGETTI SI SISTEMA 
-                    identificati dal codice MSys.
-                    Questa tabella funge da master per altre due sottotabelle:
-                        
-                        Msys_DF11_PROGETTI  --> Msys_DF12_GE_ObjProgetti --> MSys_ELENCO_ObjProgetti
-
-                        @tutte.le.tabelle.db.@MSys
-                        @MSys.tabelle
 
                     

@@ -72,10 +72,15 @@
 			
 			LLPP_IMPEGNI_Tb01FrmS01_12_GRUPPO_IMPEGNI_ANNO *** DA FARE ***
 
-### 2025.01.22_LLPP_IMPEGNI_Frm_S99_UTILITA_IMPORTA_OGGETTI = BLOCCATO I COMANDI
-	
-	COMANDI UTILITA 
+### 2025.01.22_FORM=S99_UTILITA_IMPORTA_OGGETTI + FORM MASTER GESTIONE_IMPEGNI
+	FORM S99_UTILITA
 		sono stati bloccati nel pagina e nell'evento ora non vengono piu sovrapposti.
+		le pagine del tab control hanno l'evento change
+
+	FORM MASTER IMPEGNI 
+		sulla form master impegni ho centralizzato tutto il tab control principale in 
+		quanto h
+
 
 
 	
