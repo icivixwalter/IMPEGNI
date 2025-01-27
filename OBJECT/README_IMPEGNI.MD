@@ -2,6 +2,8 @@
 
 # PROGETTO_IMPEGNI_MDB
         Note
+                    @ANALISI@IMPEGNI_(questa è l'analisi per gli impegni)
+
             Il progetto di gestione oggetti pemette la gestione di tutti gli oggetti del db e viene classificato con il
             codice oggetto
             
@@ -46,6 +48,13 @@
 
 
 # REVISIONI ED AGGIORNAMENTI
+### CODICE ---> Tb01FrmS99
+    Note
+        con questo codice estraggo tutti gli oggetti per il funzionamento della form master GESTIONE DEGLI IMPEGNI 
+
+        La form ha un tab controll di 12 pagine 
+
+
 ### 2024.12.31_RIDENOMINAZIONE = PROGETTO NUOVO
 		Creato un nuovo progetto in cui ho ridenominato tutti gli oggetti
 		per la gestione degli impegni in modo che possono essere filtrati
@@ -73,13 +82,25 @@
 			LLPP_IMPEGNI_Tb01FrmS01_12_GRUPPO_IMPEGNI_ANNO *** DA FARE ***
 
 ### 2025.01.22_FORM=S99_UTILITA_IMPORTA_OGGETTI + FORM MASTER GESTIONE_IMPEGNI
-	FORM S99_UTILITA
+	   Note
+        le modifiche sulla form LLPP_IMPEGNI_Tb01FrmS99_UTILITA_IMPORTA_OGGETTI
+            codice form ---> Tb01FrmS99
+    FORM S99_UTILITA
 		sono stati bloccati nel pagina e nell'evento ora non vengono piu sovrapposti.
 		le pagine del tab control hanno l'evento change
 
 	FORM MASTER IMPEGNI 
 		sulla form master impegni ho centralizzato tutto il tab control principale in 
-		quanto h
+		quanto si possono creare 12 pagine con il l'automazione della pagina in cui 
+        siamo allocati.
+            creato la PAGINA 10 
+            in cui gestisco l'analisi
+            @CREATO@BUTTON = APRI CARTELLA IMPEGNI 
+                apro solo la cartella dove sono allocati i progetti impegni
+            @CREATO@BUTTON = APRI FILE .MD 
+                Apro l'analasi README_IMPGNI.MDB
+
+
 
 
 
