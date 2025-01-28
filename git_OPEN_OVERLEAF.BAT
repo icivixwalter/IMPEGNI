@@ -1,4 +1,7 @@
 @REM  cd.. devi posizionarti su git_desktop
+@REM  EMAIL		: icivix@libero.it
+@REM  PASSWORD	: :yRch3VbGhX6iLr
+
 CD c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
 
 dir 
