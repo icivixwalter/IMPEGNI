@@ -34,6 +34,10 @@ ECHO.
 git status > git_STATUS_LOG.txt
 
 :: Mantenere il terminale con sfondo nero e testo giallo, quindi usa PowerShell
+:: Uso di PowerShell:
+:: Il comando PowerShell Get-Content legge il file git_STATUS_LOG.txt.
+:: ForEach-Object {Write-Host $_ -ForegroundColor Red -BackgroundColor White}
+:: per ogni riga del file, viene stampata con il testo rosso su sfondo giallo.
 :: per cambiare solo il colore dei dati nel file git_STATUS_LOG.txt (rosso su sfondo bianco)
 :: uso il comando pawershell per cambiare IL TESTO 	---> Write-Host 		= GIALLO
 :: uso il comando pawershell per cambiare LO SFONDO ---> BackgroundColor 	= NERO
