@@ -70,6 +70,6 @@ git push
 :: Pausa finale
 ECHO.
 ECHO pausa di 5 secondi per il controllo
-TIMEOUT /T 5 /NOBREAK
+TIMEOUT /T 10 /NOBREAK
 
 :: Fine dello script
