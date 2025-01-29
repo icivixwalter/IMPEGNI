@@ -5,6 +5,10 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   MDB/LLPP_IMPEGNI_ATTIVA_GESTIONE.mdb
+	modified:   MDB/LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.mdb
+	modified:   MDB/LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA.mdb
+	modified:   OBJECT/README_IMPEGNI.MD
+	modified:   Project_IMPEGNI_DI_SPESA.sublime-workspace
 	modified:   git_STATUS_LOG.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")

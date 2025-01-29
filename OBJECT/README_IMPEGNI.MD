@@ -47,13 +47,12 @@
                         @MSys.tabelle
 
 
-# REVISIONI ED AGGIORNAMENTI
-### CODICE ---> Tb01FrmS99
+# REVISIONI ED AGGIORNAMENTI PROGETTO IMPEGNI
+### CODICE FORM IMPEGNI ---> Tb01FrmS99
     Note
         con questo codice estraggo tutti gli oggetti per il funzionamento della form master GESTIONE DEGLI IMPEGNI 
 
         La form ha un tab controll di 12 pagine 
-
 
 ### 2024.12.31_RIDENOMINAZIONE = PROGETTO NUOVO
 		Creato un nuovo progetto in cui ho ridenominato tutti gli oggetti
@@ -88,21 +87,36 @@
     FORM S99_UTILITA
 		sono stati bloccati nel pagina e nell'evento ora non vengono piu sovrapposti.
 		le pagine del tab control hanno l'evento change
+        + UTILITA = Impostato pagina 10 con le utilita per gli impegni 
 
-	FORM MASTER IMPEGNI 
-		sulla form master impegni ho centralizzato tutto il tab control principale in 
-		quanto si possono creare 12 pagine con il l'automazione della pagina in cui 
-        siamo allocati.
-            creato la PAGINA 10 
-            in cui gestisco l'analisi
+### 2025.01.29= CREATO GLI EVENTI DEL TAB CONTROLL PER SCRIVERE SUL LABEL PRINCIPALE IL NOME DELLE PAGINE
+
+    FORM MASTER IMPEGNI 
+
+                 
+
+        TAB_CONTROL 
+            Automazione titolo 
+                sulla form master impegni ho centralizzato tutto il tab control principale in quanto si possono creare 12 pagine con il l'automazione della pagina in cui siamo allocati.
+                + creato 12 pagine 
+
+
+            
+
+        PAG_10
+            alla pagina 10 gestisco l'analisi, creati questi comandi:
+            @CREATO@BUTTON = APRI LATEX WEB  
+            @CREATO@BUTTON = APRI REPOSITORY 
             @CREATO@BUTTON = APRI CARTELLA IMPEGNI 
                 apro solo la cartella dove sono allocati i progetti impegni
-            @CREATO@BUTTON = APRI FILE .MD 
-                Apro l'analasi README_IMPGNI.MDB
+            @CREATO@BUTTON = APRI ANALISI .MD 
+                Apro l'analasi README_IMPEGNI.MDB
 
 
 
 
 
 	
+
+
 
