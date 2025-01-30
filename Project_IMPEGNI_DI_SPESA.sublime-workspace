@@ -28,40 +28,12 @@
 		"selected_items":
 		[
 			[
-				"term",
-				"Terminus: List Shells"
-			],
-			[
-				"ter",
-				"Terminal: Open"
-			],
-			[
-				"termin",
-				"Terminal: Open"
-			],
-			[
-				"ope",
-				"Terminal: Open in project folder"
-			],
-			[
-				"oe",
-				"Terminal: Open"
-			],
-			[
 				"Package Control: ",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: INS",
+				"Package Control: in",
 				"Package Control: Install Package"
-			],
-			[
-				"PA",
-				"PackageResourceViewer: Extract Package"
-			],
-			[
-				"PackageResourceViewer: View Package Resource",
-				"PackageResourceViewer: Extract Package"
 			],
 			[
 				"",
@@ -91,8 +63,6 @@
 		"height": 231.0,
 		"history":
 		[
-			"START START \"apro la form\" SUBLIMETEX.EXE \"C:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\CIVILIA_GESTIONE\\CIVILIA_TEXT_ANALISI\\CIVILIA_ANALISI_SUBLIME_TEXT\\FORM\\CIVILIA_FrmTb01_01_ATTI_FORMALI_TMP_DaFile_xls_TMP.MD\"\n",
-			"START \"apro la form\" SUBLIMETEX.EXE \"C:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\LLPP_ARCHIVI_MDB\\CIVILIA_GESTIONE\\CIVILIA_TEXT_ANALISI\\CIVILIA_ANALISI_SUBLIME_TEXT\\FORM\\CIVILIA_FrmTb01_01_ATTI_FORMALI_TMP_DaFile_xls_TMP.MD\"\n"
 		]
 	},
 	"distraction_free":
@@ -106,58 +76,33 @@
 	},
 	"expanded_folders":
 	[
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT"
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI"
 	],
 	"file_history":
 	[
 		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT/README_IMPEGNI.MD",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/git_OPEN_OVERLEAF.BAT",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/Zip_N70_ElencoFile.txt",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/git_PULL.BAT",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/git_STATUS.BAT",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/git_STATUS_OLD.BAT",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/git_STATUS+ADD+COMMIT+PUSH.BAT",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/git_PULL_OLD.BAT",
-		"/C/GESTIONI/gestione_llpp/25_gestione_llpp/llpp_archivi_mdb/IMPEGNI/OBJECT/IMPEGNI_ANALISI.MD",
-		"/C/GESTIONI/gestione_llpp/25_gestione_llpp/llpp_archivi_mdb/IMPEGNI/OBJECT/README_IMPEGNI.MD",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/README.md",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/CANCELLA_{MDB+OBJECT+PROJECT}.BAT",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/ZIP_7ZIP_INCREMENTALE_{CRIPTA+DECODIFICA_INTERNO}.BAT",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/ZIP_N70_INCREMENTALE.BAT",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT/README.MD",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI_DI_SPESA/OBJECT/OBJECT/ANALISI/IMPEGNI_RIDENOMINAZIONE.MD",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI_DI_SPESA/CARICA_IMPEGNI.TXT",
-		"/C/CASA/GE_MARINO/GE_CASA/BANCA/Notiziario/AnalisiTecnica/FinecoWebinar.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/Project_IMPEGNI_DI_SPESA.sublime-project",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio/NUMERI_TELEFONICI_Dipendenti in Servizio.md",
 		"/C/CASA/GE_MARINO/GE_CASA/BANCA/Notiziario/NotiziarioEconominco/Notizie_Economiche.md",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CUP_CIG_PROGETTI/CUP/ANALISI_CUP.MD",
-		"/C/CASA/GE_MARINO/GE_CASA/BANCA/Notiziario/git_STATUS+ADD+COMMIT+PUSH.BAT",
-		"/C/CASA/GE_MARINO/BANCA/Notiziario/git_STATUS+ADD+COMMIT+PUSH.BAT",
-		"/C/Users/walter.rossi/AppData/Local/Temp/7zO48C00172/01-04-23_30-04-23_XCC_TUTTI_Excelrssvtr65t28l182n0027834642.txt",
-		"/C/Users/walter.rossi/AppData/Local/Temp/7zO4312A79F/01-04-23_01-04-23_XCE_TUTTI_STDrssvtr65t28l182n0027834642.txt",
-		"/C/CASA/PRES3000_07/AUTOMOBILI/FORD_FOCUS_DM_126CH/MEMO_7_2021.MD",
-		"/C/CASA/PROGRAMMI/SUBLIME_TEXT/Data/Packages/Terminal/Terminal.sublime-settings",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/CIVILIA_ANALISI_SUBLIME_TEXT/FORM/CIVILIA_FrmTb01_01_ATTI_FORMALI_TMP_DaFile_xls_TMP.MD",
-		"/C/CASA/PROGRAMMI/SUBLIME_TEXT/Data/Packages/User/Terminal.sublime-settings",
-		"/C/CASA/PROGRAMMI/SUBLIME_TEXT/Data/Packages/User/Terminal (Windows).sublime-settings",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/CIVILIA_ANALISI_SUBLIME_TEXT/FORM/CIVILIA_QryTb01_01_ATTI_FORMALI_DaFile_xls_TMP.MD",
-		"/C/CASA/PROGRAMMI/SUBLIME_TEXT/Data/Packages/Terminal/readme.md",
-		"/C/CASA/PROGRAMMI/SUBLIME_TEXT/Data/Packages/Terminal/Default (Windows).sublime-keymap",
-		"/C/CASA/PROGRAMMI/SUBLIME_TEXT/Data/Packages/Terminality/README.md",
-		"/C/CASA/PROGRAMMI/SUBLIME_TEXT/Data/Packages/Terminality/Terminality.sublime-settings",
-		"/C/CASA/PROGRAMMI/SUBLIME_TEXT/Data/Packages/User/TerminalinPackages/Default.sublime-keymap",
-		"/C/CASA/PROGRAMMI/SUBLIME_TEXT/Data/Packages/PackageResourceViewer/README.md",
-		"/C/CASA/PROGRAMMI/SUBLIME_TEXT/Data/Installed Packages/Terminal In Packages.sublime-package",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/RELAZIONE_2021_2022.MD",
-		"/C/CASA/LTT/ANALISI/SublimeText_Analisi/LTT_ANALISI.MD",
-		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI.MD",
-		"/C/CASA/LINGUAGGI/CPP/CPP.MD",
-		"/C/Program Files/WinRAR/Licenza.Txt",
-		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./NUMERI_TELEFONICI_Dipendenti in Servizio.md",
 		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.md",
-		"/C/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/GUIDA_DI_RIFERIMENTO_OGGETTI_ACCESS.MD",
 		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-project",
 		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-workspace",
+		"/Y/LAVORI_PUBBLICI_FINO_AL_30_09_2019/Valter/OPERE_PUBBLICHE/112_SETTORE_LAVORI_PUBBLICI/01_LAVORI_PUBBLICI/BDAP_PROGETTI/209_{MESSA IN SICUREZZA DEL FIUME COSA}_{W_R}/209_{MESSA IN SICUREZZA DEL FIUME COSA}.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_N26_SALARIO_ACCESSORIO/PEO_MICRO_ORGANIZZAZIONI/PEO/ORDINE_ALFABETICO_PEO_QryTb26_11_GROUP_TUTTE_LE_PEO_XANNO.MD",
+		"/J/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/FORM_CARICAMENTO_AUTOMATICO/Analisi/ANALISI_FORM_CARICAMENTO_AUTOMATICO.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHVI_MDB/LLPP_GESTIONE/LPP_ANALISI/ATTI_TB01_GESTIONE/LLPP_ATTI_GESTIONE_Analisi_provisoria.txt",
+		"/C/CASA/CDM/GE_COND/ANAGR/ANAGR_ANALISI/ANAGR_TB04_PEC_EMAIL.md",
+		"/C/CASA/LTT/ANALISI/SublimeText_Analisi/Lotto_Progetto/Lotto_Progetto.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./NUMERI_TELEFONICI_Dipendenti in Servizio",
+		"/C/Users/walter.rossi/Desktop/FF Documento Progettuale Prot 0076218030.txt",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./NUMERI_TELEFONICI_Dipendenti in Servizio.md",
+		"/C/Users/walter.rossi/Desktop/Documento1.txt",
+		"/Y/LAVORI_PUBBLICI_FINO_AL_30_09_2019/Valter/OPERE_PUBBLICHE/112_SETTORE_LAVORI_PUBBLICI/01_LAVORI_PUBBLICI/GESTIONE_LLPP.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-project",
+		"/C/CASA/CDM/LeTorri/2023/ASSEMBLEA_ORDINARIA/2023_06_09/05_MDB/ANGRA/PROJECT_T10_ANAGR_ANALISI/ANAGRAFICA_ANALISI.MD",
+		"/C/TMP/TMP_oggi/DA_SISTEMARE/ACANFORA_ACCESSO_AGLI_ATTI/VERBALE DEL 05.06.2023.md",
+		"/C/Program Files/WinRAR/Licenza.Txt",
+		"/C/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/GUIDA_DI_RIFERIMENTO_OGGETTI_ACCESS.MD",
 		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.txt",
 		"/C/CASA/LINGUAGGI/ZIP/RAR/RAR_MANUALE_ITALIANO.TXT",
 		"/C/TMP/TMP_oggi/MEMO_7_2021.MD",
@@ -194,9 +139,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 110.4,
+		"height": 111.2,
 		"where_history":
 		[
+			"*.md",
 			""
 		]
 	},
@@ -205,71 +151,139 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"APRO_ANALISI_WEB",
-			"CMD_APRO_ANALISI_WEB",
-			"03_@CMD@BUTTON@APRI@WEB",
-			"CMD_APRO_ANALISI_WEB",
-			"03_@CMD@BUTTON@APRI@WEB",
-			"ForegroundColor",
-			"ECHO.  REM Riga vuota a video",
-			"Test di creazione del file di log",
-			"_LaQuercia_2023_2024",
-			"c:\\CASA\\CDM\\LaQuercia\\2023_2024\\",
-			"c\\:\\\\CASA\\\\CDM\\\\LaQuercia\\\\2023_2024\\\\",
-			"2023",
-			"LeTorri_2023",
-			"2023",
-			"00_SALVATAGGI",
-			"SALVATAGGI",
-			"00_",
-			"LeTorri_Archivi_2023",
-			"00_",
-			"LeTorri_Archivi",
-			"lista",
-			"Le_torri",
-			"00_SALVATAGGI",
-			"SALVATAGGI",
-			"00_SALVATAGGI",
-			"00_SALVATAGGI_2023",
-			"Zip_N70_ElencoFile_2023",
-			"ZIP_SALVATAGGI_LeTorri_2023",
-			"00_SALVATAGGI_2023",
-			"c:\\Casa\\CDM\\LeTorri\\2023\\",
-			"SALVATAGGI_2022_2023",
-			"c:\\Casa\\CDM\\LaQuercia\\2022_2023\\",
-			"Cmd_RecuperaFILE",
-			"Cmd_RecuperaFIL",
-			"Cmd_RecuperaPath_Click",
-			"ApriFileDialog_RecuperaPath_Sub",
-			"Main",
-			"6",
-			"qryCollection3",
-			"1",
-			"Cmd_QUERY_CANCELLA_IMPORTATE_Click",
-			"Cmd_FORM_CANCELLA_IMPORTATE",
-			"Cmd_FORM_CANCELLA_IMPORTATE_",
-			"Cmd_FORM_IMPORTA",
-			"@STARLINK",
-			"algorittimi",
-			"BANCA",
-			"@BOLLETTE",
-			"git",
-			"@italgas",
-			"@Nimbus",
-			"@ninbus",
-			"@PANNELLI",
-			"@telecomunicazioni",
-			"@tim",
-			"@fin",
-			"c:\\CASA\\LINGUAGGI\\DOS\\",
-			"\u0002",
-			"retail",
-			"batterie@idrogeno"
+			"esposito",
+			"VESPAZIANI",
+			"VESPASIANI",
+			"MARIA GRAZIA",
+			"cesare",
+			"aurora",
+			"armando",
+			"MARROCCO",
+			"ENGIE",
+			"caringi",
+			"ANNA MARIA",
+			"caringi",
+			"anna maria",
+			"cirillo",
+			"PROTOCOLLO",
+			"COPPOTELLI",
+			"ANNA MARIA",
+			"ANNA MARIAù",
+			"BENITO",
+			"ARMANDO",
+			"maria grazia",
+			"CALICCHIA",
+			"esposito",
+			"paola",
+			"esposito",
+			"lilli",
+			"caringi",
+			"faticanti",
+			"alessandra",
+			"vespa",
+			"vespasiani",
+			"sandra",
+			"francesca",
+			"protocollo",
+			"benito",
+			"anna maria",
+			"alessandro",
+			"alessandra",
+			"lorena",
+			"emilia",
+			"santoro",
+			"BENITO",
+			"fabrizia",
+			"posta",
+			"raccomandate",
+			"BENITO",
+			"alessandro",
+			"Anna maria",
+			"anna maria",
+			"sarracino",
+			"agronomo",
+			"CARINGI",
+			"ANNA MARIA",
+			"lorena",
+			"MARROCCO",
+			"URBANO",
+			"aurelia",
+			"fabrizia",
+			"protocollo",
+			"lorena",
+			"aurora",
+			"gabriele",
+			"lorena",
+			"maria",
+			"aurora",
+			"VESPAZIANI",
+			"aurora",
+			"caringi",
+			"lorena",
+			"cirillo",
+			"LORENA",
+			"PASCARELLA",
+			"LORENA",
+			"SANDRA",
+			"mariella",
+			"fabrizia",
+			"claudio",
+			"maria grazia",
+			"esposito",
+			"allegrini",
+			"lorena",
+			"CLAUDIO",
+			"CALICCHIA",
+			"CALICCHIA G",
+			"ALLEGRINI",
+			"lorena",
+			"CALDEO",
+			"tiziana",
+			"tiziani",
+			"ENRICA",
+			"OLSARETTI",
+			"ENRICA",
+			"CENTRALINO",
+			"FRANCESCA",
+			"STEFANO",
+			"STERANO",
+			"D'EMILIA",
+			"Maria Teresa",
+			"MARIA TERESA",
+			"\\-",
+			"vespazi",
+			"gabriele",
+			"colafrancesco",
+			"MARROCCO",
+			"d'emilia",
+			"personale",
+			"Maria",
+			"maria",
+			"benito",
+			"maria grazia",
+			"armando",
+			"emilia",
+			"paola",
+			"luca",
+			"baldassrre",
+			"aurora",
+			"corsetti",
+			"aurora",
+			"benito",
+			"patrizia",
+			"Anna Maria",
+			"anna maria",
+			"lorena",
+			"benito",
+			"benito caringi",
+			"lorena",
+			"STEFANO",
+			"D'EMILIA"
 		],
 		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -295,7 +309,7 @@
 	},
 	"input":
 	{
-		"height": 42.4
+		"height": 40.8
 	},
 	"layout":
 	{
@@ -320,9 +334,13 @@
 		]
 	},
 	"menu_visible": true,
-	"output.Terminus":
+	"output.SublimeLinter":
 	{
 		"height": 126.400001526
+	},
+	"output.Terminus":
+	{
+		"height": 138.399993896
 	},
 	"output.find_results":
 	{
@@ -352,7 +370,7 @@
 		[
 			[
 				"",
-				"C:\\CASA\\GE_MARINO\\GE_CASA\\BANCA\\Notiziario\\Progetto_Notiziario.sublime-project"
+				"C:\\GESTIONI\\GESTIONE_LLPP\\25_GESTIONE_LLPP\\NUMERI_TELEFONICI_Dipendenti in Servizio\\NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-project"
 			]
 		],
 		"width": 389.6
@@ -374,7 +392,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 622.0,
+	"side_bar_width": 492.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
