@@ -2,22 +2,22 @@
 [02] FILE LOG DI STAMPA DEL COMANDO BAT PULL_LOG.BAT 
  
  
-[02] Data: 02/02/2025 Ora: 22:11:04,49 
+[02] Data: 09/02/2025 Ora: 19:54:51,92 
  
  
  
  
  
-[02/02/2025 22:11:04,54] "03 Inizio esecuzione dello script" 
-[02/02/2025 22:11:04,55] Eseguendo comando: "04 CD c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\" 
-[02/02/2025 22:11:04,56] Eseguendo comando: "05 DIR" 
+[09/02/2025 19:54:51,98] "03 Inizio esecuzione dello script" 
+[09/02/2025 19:54:51,98] Eseguendo comando: "04 CD c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\" 
+[09/02/2025 19:54:52,00] Eseguendo comando: "05 DIR" 
  Il volume nell'unit… C Š Windows-SSD
  Numero di serie del volume: 8EE0-A1E8
 
  Directory di c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI
 
 31/01/2025  11:13    <DIR>          .
-31/01/2025  12:14    <DIR>          ..
+09/02/2025  08:34    <DIR>          ..
 31/01/2025  11:06                15 .gitignore
 31/01/2025  12:14    <DIR>          AA_SALVATAGGI
 31/01/2025  11:06             4.854 AA__________________________________________________________________________AA.txt
@@ -25,10 +25,10 @@
 31/01/2025  11:06               578 git_OpenGitHub.bat
 31/01/2025  11:06               770 git_OPEN_OVERLEAF.BAT
 31/01/2025  11:06             5.735 git_PULL.BAT
-02/02/2025  22:11               397 git_PULL_LOG.txt
+09/02/2025  19:54               397 git_PULL_LOG.txt
 31/01/2025  11:06             2.469 git_STATUS+ADD+COMMIT+PUSH.BAT
 31/01/2025  11:06             2.391 git_STATUS.BAT
-31/01/2025  11:06               397 git_STATUS_LOG.txt
+02/02/2025  22:11               467 git_STATUS_LOG.txt
 31/01/2025  19:38    <DIR>          MDB
 31/01/2025  11:13    <DIR>          OBJECT
 31/01/2025  11:06                53 Project_IMPEGNI_DI_SPESA.sublime-project
@@ -46,16 +46,16 @@
 31/01/2025  11:06             2.361 Zip_rar_C.bat
 31/01/2025  11:06             2.179 Zip_rar_C_GitHub.bat
 31/01/2025  11:06                 0 ZZ__________________________________________________________________________ZZ.txt
-              25 File        103.433 byte
-               5 Directory  777.289.654.272 byte disponibili
-[02/02/2025 22:11:04,58] Eseguendo comando: "06 GIT STATUS" 
+              25 File        103.503 byte
+               5 Directory  779.082.342.400 byte disponibili
+[09/02/2025 19:54:52,02] Eseguendo comando: "06 GIT STATUS" 
 git: 'STATUS' is not a git command. See 'git --help'.
-[02/02/2025 22:11:04,69] Eseguendo comando: "07 TIMEOUT /T 3 /NOBREAK" 
+[09/02/2025 19:54:52,14] Eseguendo comando: "07 TIMEOUT /T 3 /NOBREAK" 
 
 In attesa da 3 secondi. Per uscire, premere CTRL+C...210
-[02/02/2025 22:11:07,27] Eseguendo comando: "08 GIT PULL" 
+[09/02/2025 19:54:55,22] Eseguendo comando: "08 GIT PULL" 
 git: 'PULL' is not a git command. See 'git --help'.
-[02/02/2025 22:11:07,39] Eseguendo comando: "09 TIMEOUT /T 5 /NOBREAK" 
+[09/02/2025 19:54:55,27] Eseguendo comando: "09 TIMEOUT /T 5 /NOBREAK" 
 
 In attesa da 5 secondi. Per uscire, premere CTRL+C...43210
-[02/02/2025 22:11:12,20] "10 Fine esecuzione dello script" 
+[09/02/2025 19:55:00,14] "10 Fine esecuzione dello script" 
