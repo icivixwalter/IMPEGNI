@@ -10,4 +10,9 @@ Changes not staged for commit:
 	modified:   git_PULL_LOG.txt
 	modified:   git_STATUS_LOG.txt
 
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	OBJECT/MODULES/
+	OBJECT/TABLES/
+
 no changes added to commit (use "git add" and/or "git commit -a")
