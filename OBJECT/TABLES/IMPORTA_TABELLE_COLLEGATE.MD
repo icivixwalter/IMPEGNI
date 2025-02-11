@@ -1,39 +1,44 @@
 # LE_TABELLE_COLLEGATE:
 	Solo le tabelle 
-		queste sono le tabelle che vengono collegate nella form servizi.
+		queste sono le tabelle che vengono collegate nella form servizi DA @IMPORTARE.
+			@TABELLE@COLLEGATE_(DA @IMPORTARE PER IL FUNZIONAMENTO DEL PROGETTO IMPEGNI)
 
-		objectTables.Add "LLPP_ATTI_Tb01_{@=============================================@}"
-		objectTables.Add "LLPP_ATTI_Tb01_Gestione"
-		objectTables.Add "LLPP_ATTI_Tb02_{@====================================@}_ALLEGATI"
-		objectTables.Add "LLPP_ATTI_Tb02_Allegati"
-		objectTables.Add "LLPP_IMPEGNI_DF02_{@===============================@}_VOCE_ATTI"
-		objectTables.Add "LLPP_IMPEGNI_DF02_{@==========================================@}"
-		objectTables.Add "LLPP_IMPEGNI_DF02_}--------------------------------------------@"
-		objectTables.Add "LLPP_IMPEGNI_DF02_VOCE_ATTI_IMPEGNO"
-		objectTables.Add "LLPP_IMPEGNI_DF02_VOCE_ATTI_IMPEGNO_TMP"
-		objectTables.Add "LLPP_IMPEGNI_TB01_{@==========================================@}"
-		objectTables.Add "LLPP_IMPEGNI_TB01_}--------------------------------------------@"
-		objectTables.Add "LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO"
-		objectTables.Add "LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO_TMP"
-		objectTables.Add "LLPP_IMPEGNI_Tb02_{@==========================================@}"
-		objectTables.Add "LLPP_IMPEGNI_Tb02_}--------------------------------------------@"
-		objectTables.Add "LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA"
-		objectTables.Add "MSys_DF02_}----------------------------------------------------@"
-		objectTables.Add "MSys_DF02_TIPO_OGGETTO"
-		objectTables.Add "MSys_DF11_}----------------------------------------------------@"
-		objectTables.Add "Msys_DF11_PROGETTI"
-		objectTables.Add "MSys_T_}-------------------------------------------------------@"
-		objectTables.Add "MSys_TABELLE"
-		objectTables.Add "PROGETTI_MSYS_{@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@}_Tab"
-		objectTables.Add "PROGETTI_Msys_TB01_}-------------------------------------------@"
-		objectTables.Add "PROGETTI_Msys_TB01_PROJECT"
-		objectTables.Add "PROGETTI_Msys_TB01_PROJECT_TMP"
-		objectTables.Add "PROGETTI_Msys_TB02_}-------------------------------------------@"
-		objectTables.Add "PROGETTI_Msys_TB02_TIPO_OGGETTI"
-		objectTables.Add "PROGETTI_Msys_TB03_}-------------------------------------------@"
-		objectTables.Add "PROGETTI_Msys_TB03_ELENCO_ObjProgetti"
-		
-
+		 
+             '//@IMPEGNI@TABELLE@UTILITA_(LA @collection DELLE @TABELLE relative agli impegni)
+            Case "IMPORTA_OGGETTI_IMPEGNI"
+                
+                objectTables.Add "LLPP_ATTI_Tb01_{@=============================================@}"
+                objectTables.Add "LLPP_ATTI_Tb01_Gestione"
+                objectTables.Add "LLPP_ATTI_Tb02_{@====================================@}_ALLEGATI"
+                objectTables.Add "LLPP_ATTI_Tb02_Allegati"
+                objectTables.Add "LLPP_IMPEGNI_DF02_{@===============================@}_VOCE_ATTI"
+                objectTables.Add "LLPP_IMPEGNI_DF02_{@==========================================@}"
+                objectTables.Add "LLPP_IMPEGNI_DF02_}--------------------------------------------@"
+                objectTables.Add "LLPP_IMPEGNI_DF02_VOCE_ATTI_IMPEGNO"
+                objectTables.Add "LLPP_IMPEGNI_DF02_VOCE_ATTI_IMPEGNO_TMP"
+                objectTables.Add "LLPP_IMPEGNI_TB01_{@==========================================@}"
+                objectTables.Add "LLPP_IMPEGNI_TB01_}--------------------------------------------@"
+                objectTables.Add "LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO"
+                objectTables.Add "LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO_TMP"
+                objectTables.Add "LLPP_IMPEGNI_Tb02_{@==========================================@}"
+                objectTables.Add "LLPP_IMPEGNI_Tb02_}--------------------------------------------@"
+                objectTables.Add "LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA"
+                objectTables.Add "MSys_DF02_}----------------------------------------------------@"
+                objectTables.Add "MSys_DF02_TIPO_OGGETTO"
+                objectTables.Add "MSys_DF11_}----------------------------------------------------@"
+                objectTables.Add "Msys_DF11_PROGETTI"
+                objectTables.Add "MSys_T_}-------------------------------------------------------@"
+                objectTables.Add "MSys_TABELLE"
+                objectTables.Add "PROGETTI_MSYS_{@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@}_Tab"
+                objectTables.Add "PROGETTI_Msys_TB01_}-------------------------------------------@"
+                objectTables.Add "PROGETTI_Msys_TB01_PROJECT"
+                objectTables.Add "PROGETTI_Msys_TB01_PROJECT_TMP"
+                objectTables.Add "PROGETTI_Msys_TB02_}-------------------------------------------@"
+                objectTables.Add "PROGETTI_Msys_TB02_TIPO_OGGETTI"
+                objectTables.Add "PROGETTI_Msys_TB03_}-------------------------------------------@"
+                objectTables.Add "PROGETTI_Msys_TB03_ELENCO_ObjProgetti"
+                
+              
 
 ## TabelleCollegate+PATH
 	Le Tabelle Collegate e le path:

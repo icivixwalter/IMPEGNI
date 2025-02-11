@@ -1,5 +1,6 @@
 MODULI_IMPEGNI.MD
 	Questi sono i moduli per il funzionamento degli impegni.
+			@IMPORTA@MODULI@IMPEGNI_(questi sono i moduli da @importare per il funzionamento del progetto IMPEGNI)
 		
 		'//@COLLECTION@ESPROPRI@MODULI
 		objectModules.Add"UTIL_Nrx1003_n01_RECUPERO_PARAMETRI_TABELLA_OGGETTI"

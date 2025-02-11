@@ -2,8 +2,20 @@ On branch calcolo
 Your branch is up to date with 'origin/calcolo'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+  (use "git add/rm <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
+	modified:   MDB/LLPP_IMPEGNI_ATTIVA_GESTIONE.mdb
+	deleted:    OBJECT/MODULES/MODULI_IMPEGNI.MD
+	deleted:    OBJECT/TABLES/TABELLE_COLLEGATE.MD
+	modified:   Project_IMPEGNI_DI_SPESA.sublime-workspace
 	modified:   git_STATUS_LOG.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	OBJECT/FORM/
+	OBJECT/MACRO/
+	OBJECT/MODULES/IMPORTA_MODULI_IMPEGNI.MD
+	OBJECT/QUERY/IMPORTA_QUERY_IMPEGNI.MD
+	OBJECT/TABLES/IMPORTA_TABELLE_COLLEGATE.MD
 
 no changes added to commit (use "git add" and/or "git commit -a")

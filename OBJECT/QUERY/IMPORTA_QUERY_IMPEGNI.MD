@@ -1,0 +1,50 @@
+IMPORTA_QUERY_IMPEGNI.MD
+	@IMPORTA@QUERY@IMPEGNI_(queste sono le query da @importare per il funzionamento del progetto IMPEGNI)
+
+
+
+	 '//@IMPEGNI@QUERY@UTILITA_(LA @collection delle query relative agli impegni)
+            Case "IMPORTA_OGGETTI_IMPEGNI"
+
+                '//@collection@query@impegni
+                 objectQUERY.Add "LLPP_ATTI_Qry01_01_Gestione"
+                 objectQUERY.Add "LLPP_ATTI_Qry01_12_Gestione_Elenco"
+                 objectQUERY.Add "LLPP_ATTI_Qry02_01_ALLEGATI"
+                 objectQUERY.Add "LLPP_IMPEGNI_Qry01_13_ELENCO_IMPEGNI"
+                 objectQUERY.Add "LLPP_IMPEGNI_Qry01_13_GRUPPO_ELENCO_IMPEGNI_ANNO"
+                 objectQUERY.Add "LLPP_IMPEGNI_Qry01_13_GRUPPO_ELENCO_IMPEGNI_ANNO_CLASSIFICAZIONE"
+                 objectQUERY.Add "LLPP_IMPEGNI_Qry01_19_ELENCO_IMPEGNI_COD_PRAT"
+                 objectQUERY.Add "LLPP_IMPEGNI_Qry01_20_01_GRUPPO_IMPEGNI_XANNO"
+                 objectQUERY.Add "LLPP_IMPEGNI_Qry01_20_02_GRUPPO_IMPEGNI_XANNO_XCLASSIFICAZ"
+                 objectQUERY.Add "LLPP_IMPEGNI_Qry02_01_ELENCO_DI_SPESA"
+                 objectQUERY.Add "LLPP_IMPEGNI_Qry02_02_ELENCO_DI_SPESA_Totali"
+                 objectQUERY.Add "LLPP_IMPEGNI_QryDF02_01_VOCE_ATTI_IMPEGNO"
+                 objectQUERY.Add "LLPP_IMPEGNI_QryDF02_02_GRUPPO_CODICE_VOCE_ATTI_IMPEGNO"
+                 objectQUERY.Add "LLPP_IMPEGNI_Tb01Qry_01_OGGETTI"
+                 objectQUERY.Add "LLPP_IMPEGNI_Tb01Qry01_12_GRUPPO_ELENCO_IMPEGNI_ANNO"
+                 objectQUERY.Add "LLPP_IMPEGNI_Tb01Qry01_13_GRUPPO_ELENCO_IMPEGNI_ANNO_CLASSIF"
+                 objectQUERY.Add "LLPP_IMPEGNI_Tb01Qry01_13_GRUPPO_ELENCO_IMPEGNI_ANNO_CLASSIFICAZ"
+                 objectQUERY.Add "LLPP_IMPEGNI_Tb01Qry01_14_ELENCO_IMPEGNI_COD_PRAT"
+                 objectQUERY.Add "LLPP_IMPEGNI_Tb01Qry02_15_ELENCO_DI_SPESA"
+                 objectQUERY.Add "LLPP_IMPEGNI_Tb01Qry02_16_ELENCO_DI_SPESA_Totali"
+                 objectQUERY.Add "Msys_DF02_Qry01_}----------------------------------------------@"
+                 objectQUERY.Add "Msys_DF02_Qry01_01_TIPO_OGGETTI"
+                 objectQUERY.Add "MSys_QUERY_Qry00_{@===========================================@}"
+                 objectQUERY.Add "MSys_QUERY_Qry01_}---------------------------------------------@"
+                 objectQUERY.Add "MSys_QUERY_Qry01_01_SELECT_TUTTE"
+                 objectQUERY.Add "MSys_QUERY_Qry01_01_SELECT_TUTTE_TMP"
+                 objectQUERY.Add "MSys_QUERY_Qry01_71_INSERT_toMsys_DF12"
+                 objectQUERY.Add "MSys_QUERY_Qry01_80_}------------------------------------@DELETE"
+                 objectQUERY.Add "MSys_QUERY_Qry01_81_DELETE_TUTTE"
+                 objectQUERY.Add "PROGETTI_Msys_Tb00_Qry00_{@===================================@}"
+                 objectQUERY.Add "PROGETTI_Msys_TB01Qry01_01_PROJECT"
+                 objectQUERY.Add "PROGETTI_Msys_TB01Qry01_01_PROJECT_TMP"
+                 objectQUERY.Add "PROGETTI_Msys_TB01Qry01_01_PROJECT_TMP_Delete"
+                 objectQUERY.Add "PROGETTI_Msys_TB02Qry01_01_TIPO_OGGETTI"
+                 objectQUERY.Add "PROGETTI_Msys_TB03Qry01_01_ELENCO_ObjProgetti"
+                 objectQUERY.Add "PROGETTI_Msys_TB03Qry01_02_ObjProgetti_FORM=COD_PROGETTO_s"
+                 objectQUERY.Add "PROGETTI_Msys_TB03Qry01_02_ObjProgetti_MACRO=COD_PROGETTO_s"
+                 objectQUERY.Add "PROGETTI_Msys_TB03Qry01_02_ObjProgetti_QUERY=COD_PROGETTO_s"
+                 objectQUERY.Add "PROGETTI_Msys_TB03Qry01_02_ObjProgetti_REPORT=COD_PROGETTO_s"
+                 objectQUERY.Add "PROGETTI_Msys_TB03Qry01_02_ObjProgetti_TABLE=COD_PROGETTO_s"
+                
