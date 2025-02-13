@@ -1,5 +1,5 @@
 '# CLASSE_Form_UTILITA_Msys_Frm21_IMPORTA_OGGETTI.md
-
+'//@VERSIONE_DEL_2025_02_12=COMPLETA E FUNZIONANTE
 
 '*****************************************************************************************************//
 '*  CLASSE DELLA FORM: Form_UTILITA_Msys_Frm21_IMPORTA_OGGETTI
@@ -2871,10 +2871,6 @@ End Sub
 
 
 
-Private Sub Cmd_Delete_FORM_MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single)
-
-End Sub
-
 '//LA COLLEZIONE DEI REPORT DA IMPORTARE  *** FINE ***
 '//-----------------------------------------------------------------------------------//
 
@@ -3550,38 +3546,51 @@ Private Sub Cmd_Delete_FORM_Click()
                                   Print Se; non; ci; sono; FORMS, prova; a; selezionare; una; tabella; e; poi; la; sezione; FORMS, per; forzare; l 'apertura del riquadro. _
                                   Evita errori con On Error Resume Next in caso di assenza di oggetti.
                 
-                            
-                            
-                                    Dim db As DAO.Database
-                                    Dim doc As Document
-                                    Dim formVisibili As Integer
-                
-                                    Set db = CurrentDb
-                                    formVisibili = 0 ' Inizializza il contatore
-                
-                                    ' Conta solo le maschere visibili nel database
-                                    For Each doc In db.Containers("Forms").Documents
-                                      If Left(doc.Name, 1) <> "~" Then ' Esclude eventuali maschere di sistema nascoste
-                                        formVisibili = formVisibili + 1
+                                      Dim formVisibili As Integer
+                                      Dim tableVisibili As Integer
+                                      
+                                      ' Inizializza il database corrente
+                                      Set db = CurrentDb
+                                      tableVisibili = 0 ' Inizializza il contatore
+
+                                      
+                                      ' Inizializza i contatori per i form e le tabelle
+                                      formVisibili = 0
+                                      tableVisibili = 0
+                                      
+                                      ' Conta le maschere visibili nel database
+                                      For i = 0 To Application.CurrentProject.AllForms.Count - 1
+                                          formVisibili = formVisibili + 1
+                                      Next i
+                                      
+                                                                            
+                                      
+                                      ' Conta solo le tabelle visibili, escludendo quelle di sistema
+                                      For Each TableDef In db.TableDefs
+                                          If Left(TableDef.Name, 4) <> "MSys" Then ' Esclude le tabelle di sistema (iniziano con "MSys")
+                                              tableVisibili = tableVisibili + 1
+                                          End If
+                                      Next TableDef
+                                      
+                                       ' Se ci sono maschere visibili, apri la sezione Maschere
+                                      If formVisibili > 0 Then
+                                          DoCmd.SelectObject acForm, , True
+                                      ElseIf tableVisibili > 0 Then
+                                          ' Se non ci sono form, ma ci sono tabelle, seleziona una tabella per evitare errori
+                                          On Error Resume Next
+                                          DoCmd.SelectObject acTable, , True
+                                          On Error GoTo 0
                                       End If
-                                    Next doc
-                
-                                    ' Se ci sono maschere visibili, apri la sezione Maschere
-                                    If formVisibili > 0 Then
-                                      DoCmd.SelectObject acForm, , True
-                                    Else
-                                      ' Se non ci sono maschere, prova a selezionare un altro oggetto per forzare l'apertura del riquadro
-                                      On Error Resume Next
-                                      DoCmd.SelectObject acTable, , True ' Seleziona una tabella (se esiste)
-                                      DoCmd.SelectObject acForm, , True ' Ora prova a selezionare la sezione Maschere
-                                      On Error GoTo 0
-                                    End If
-                
-                                    ' Pulizia memoria
-                                    Set doc = Nothing
-                                    Set db = Nothing
-                
-                
+                                      
+                                      ' Pulizia memoria: Anche se VBA rilascia automaticamente le variabili locali,
+                                      ' è buona pratica resettare eventuali riferimenti se necessario.
+                                      formVisibili = 0
+                                      tableVisibili = 0
+                                      i = 0
+                                                                            ' Inizializza il database corrente
+                                      Set db = CurrentDb
+                                      tableVisibili = 0 ' Inizializza il contatore
+
                                           
                                     
                               '//APRI RIQUADRO FORMS INDIPENDENTEMENTE DALLA LORO PRESENZA *** FINE ***
