@@ -5,12 +5,18 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   MDB/LLPP_IMPEGNI_ATTIVA_GESTIONE.mdb
-	modified:   OBJECT/FORM/CLASSE_Form_UTILITA_Msys_Frm21_IMPORTA_OGGETTI.md
+	modified:   MDB/LLPP_IMPEGNI_DF02_ATTI_DI_IMPEGNO.mdb
+	modified:   MDB/LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.mdb
 	modified:   Project_IMPEGNI_DI_SPESA.sublime-workspace
+	modified:   git_PULL_LOG.txt
 	modified:   git_STATUS_LOG.txt
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	OBJECT/REPORTS/
+	OBJECT/FORM/LLPP_IMPEGNI_Tb01FrmS01_14_00_GE_GE_ELENCO_IMPEGNI.MD
+	OBJECT/FORM/LLPP_IMPEGNI_Tb01FrmS01_14_ELENCO_IMPEGNI.MD
+	OBJECT/MODULES/MODELLO_ROUTINE.MD
+	OBJECT/QUERY/QUERY_CASELLA_DI_TESTO_FILTRO_IMPEGNI.MD
+	TMP/
 
 no changes added to commit (use "git add" and/or "git commit -a")
