@@ -1,0 +1,60 @@
+LLPP_IMPEGNI_Tb01Qry01_14_ELENCO_IMPEGNI_COD_PRAT_NW.MD 
+
+
+
+### NOTE
+	@query@estrazione@IMPEGNI (estraggo i dati degli impegni)
+
+
+
+
+### SCHEMA_QUERY
+
+SELECT "Tutti gli impegni-> " & "LLPP_IMPEGNI_Qry01_19_ELENCO_IMPEGNI_COD_PRAT" AS TXTQuery,
+LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.*, 
+Len([LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.OggettoAtto_m]) AS LUNGHEZZA_m, 
+Len([LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.OggettoAtto_s]) AS LUNGHEZZA_255, 
+"->" AS TXTCampi, 
+
+[AnnoAtto_i] & "|" & [CodPratica_s] & "|" & [CLASS_ATTI_DI_IMPEGNO_s] AS TxtKeyCLASS_ATTI_DI_IMPEGNO_sTmp, [AnnoAtto_i] & "|" & [CodPratica_s] AS TxtKeyTmp, 
+
+LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.CodPratica_s AS CodPratica_s_key, 
+LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.IDGestione AS IDGestione_KEY, 
+LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.AnnoAtto_i AS ANNO_Key, 
+
+
+[CLASS_ATTI_DI_IMPEGNO_s] & "-" & [FileAtto_s] & "- " & [CodPratica_s] & " - " & [NroPratica_i] & " -> " & [NoteAtto_s] & " - " & [NoteEx_m] AS TXTSTAMPA_ELENCO, "chiavi" AS TxtKey, 
+
+LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.FileAtto_s AS KEY_FileAtto_s
+
+FROM 
+LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO
+ORDER BY 
+LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.AnnoAtto_i, 
+LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.NroPratica_i, 
+LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.AnnoAtto_i;
+
+
+
+### SCHEMA_QUERY_SSQL
+
+SSQL=""
+SSQL=SSQL "SELECT "Tutti gli impegni-> " & "LLPP_IMPEGNI_Qry01_19_ELENCO_IMPEGNI_COD_PRAT" AS TXTQuery, "
+SSQL=SSQL "LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.*,"
+SSQL=SSQL "Len([OggettoAtto_m]) AS LUNGHEZZA_m, Len([OggettoAtto_s]) AS LUNGHEZZA_255, "->" AS TXTCampi, "
+SSQL=SSQL ""
+SSQL=SSQL "[AnnoAtto_i] & "|" & [CodPratica_s] & "|" & [CLASS_ATTI_DI_IMPEGNO_s] AS TxtKeyCLASS_ATTI_DI_IMPEGNO_sTmp, [AnnoAtto_i] & "|" & [CodPratica_s] AS "TxtKeyTmp, 
+SSQL=SSQL ""
+SSQL=SSQL "LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.CodPratica_s AS CodPratica_s_key, "
+SSQL=SSQL "LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.IDGestione AS IDGestione_KEY, "
+SSQL=SSQL "LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.AnnoAtto_i AS ANNO_Key, "
+SSQL=SSQL ""
+SSQL=SSQL "[CLASS_ATTI_DI_IMPEGNO_s] & "-" & [FileAtto_s] & "- " & [CodPratica_s] & " - " & [NroPratica_i] & " -> " & [NoteAtto_s] & " - " & [NoteEx_m] AS "TXTSTAMPA_SSQL=SSQL "ELENCO, "
+SSQL=SSQL ""
+SSQL=SSQL ""chiavi" AS TxtKey, LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.FileAtto_s AS KEY_FileAtto_s"
+SSQL=SSQL "FROM "
+SSQL=SSQL "LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO"
+SSQL=SSQL "WHERE "
+SSQL=SSQL "(((LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.AnnoAtto_i)=2004))"
+SSQL=SSQL "ORDER BY "
+SSQL=SSQL "LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.AnnoAtto_i, LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.NroPratica_i, LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.AnnoAtto_i;"
