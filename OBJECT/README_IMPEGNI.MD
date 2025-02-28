@@ -120,3 +120,126 @@
 
 
 
+
+
+
+### 2025.02.22_FORM=CODICE_17 CREATO FORM CUP E CIG
+LLPP_IMPEGNI_Tb01FrmS01_17_CUP
+
+    CODICE: 17-0
+
+    01_FORM
+        LLPP_IMPEGNI_Tb01Frm17_}---------------------------------------@
+        LLPP_IMPEGNI_Tb01Frm17-00_M01_GE_CUP
+            Note
+                questa è la form generale di gestione dei CUP
+                non ha query base.
+
+    02_FORM
+        LLPP_IMPEGNI_Tb01Frm17-01_S01_GROUPxANNO_CUP
+            Note
+                Creo la form che visualizza i CUP RAGGRUPPATI PER ANNO
+
+            QUERY 
+                LLPP_IMPEGNI_Tb01Qry02_17-01_CUP_GROUPxANNO
+                    creo la query CUP PER ANNO solo il campo cup>0
+    03_FORM
+        LLPP_IMPEGNI_Tb01Frm17-02_S01_CUP
+            Note
+                questa form estrae tutti i cup o
+
+            QUERY 
+                LLPP_IMPEGNI_Tb01Qry02_17-02_CUP
+                    creato query di raggruppamento CUP per anno >0
+                
+    
+
+    DA_CARICARE:
+        FORM
+            LLPP_IMPEGNI_Tb01Frm17_}---------------------------------------@
+            LLPP_IMPEGNI_Tb01Frm17-00_M01_GE_CUP
+            LLPP_IMPEGNI_Tb01Frm17-01_S01_GROUPxANNO_CUP
+            LLPP_IMPEGNI_Tb01Frm17-02_S01_CUP
+        QUERY
+            LLPP_IMPEGNI_Tb01Qry02_17-01_CUP_GROUPxANNO
+            LLPP_IMPEGNI_Tb01Qry02_17-02_CUP
+
+
+    FORM_ADATABILE
+
+
+                ho una form master chiamata AA_PROVA e contiene un oggetto sotto form 
+                chiamato Pag_01 per ora la proprieta larghezza fissa è di 35,741cm, vorrei 
+                creare procedura in VBA che imposti prima di caricare in modo visibile la form
+                master che imposti la larghezza fissa a 20 cm si puo fare?
+
+
+                La struttura della form AA_PROVA è questa:
+
+                
+                        |                   = name: AA_PROVA
+                Maschera principale         = larghezza di 36,395cm
+                    |
+                    | Corpo maschera        = altezza 18,582cm
+                        |
+                        |                   = name: TabCtl1
+                        | Tab controll      = larghezza 17,011cm
+                            |               = altezza   17,011cm
+                            |
+                            |
+                            |               = name: Pag_01, ... Pag_12
+                            Pagine 1-12     = larghezza 17,011cm
+                                |           = altezza   17,011cm
+                                |
+                                |
+                                |           = name: Sottoform_01, ... Sottoform_12
+                                Le 12 sottoform
+                                    12 pagine del tab control che contengono 
+                                    12 sottoform    = larghezza 15cm
+                                                    = altezza   13
+
+                RIDUZIONE DAL PIU INTERNO AL PIU ESTERNO
+                Quando RIDUCO le dimensione di tutto gli oggetti devo seguire questo schema:
+                    01) riduco altezza e larghezza dei 12 oggetti Sottoform_01 ... Sottoform_12;
+                    02) riduco altezza e larghezza delle 12 pagine Pag_01... Pag_12 ;
+                    03) riduco altezza e larghezza del Tab control denominato TabCtl1
+                    04) riduco l'altezza del corpo maschera
+                    05) riduco la larghezza della form principale AA_PROVA.
+
+
+                Queste riduzioni servono per rendere visibile sul video l'intera form e quindi in modo adattabile
+                senza utilizzare le barre
+
+    
+LLPP_IMPEGNI_Tb01FrmS01_18-01_CIG
+    QUERY 
+        LLPP_IMPEGNI_Tb01Qry02_17_CIG
+
+
+
+
+
+
+
+
+
+
+
+Crea una funzione di supporto simile a questa che viene utilizzata per il tab controll oppure
+adattala per le pagine del tab control:
+...
+Call ModificaTabControl(frm, 17, 17)      ' Tab Control a 17x17 cm
+
+' Modifica le dimensioni del Tab Control
+Private Sub ModificaTabControl(frm As Form, larghezza As Double, altezza As Double)
+    Dim tabCtl As Control
+    On Error Resume Next
+    Set tabCtl = frm("TabCtl1")
+    On Error GoTo 0
+    If Not tabCtl Is Nothing Then
+        tabCtl.Width = cmToTwips(larghezza)
+        tabCtl.Height = cmToTwips(altezza)
+        DoEvents
+    End If
+    Set tabCtl = Nothing
+End Sub
