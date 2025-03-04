@@ -50,7 +50,7 @@ LLPP_IMPEGNI_Tb01FrmS01_14_00_GE_GE_ELENCO_IMPEGNI.MD
 
 '::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 'Option
-
+      
     Option Compare Database
     Option Explicit
 
