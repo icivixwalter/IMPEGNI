@@ -93,12 +93,12 @@
 	"expanded_folders":
 	[
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT/FORM",
-		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT/MACRO"
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT"
 	],
 	"file_history":
 	[
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT/ANALISI_Project_LINK/AnalisiProject_LINK",
+		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT/README_IMPEGNI.MD",
 		"/c/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT/FORM/LLPP_IMPEGNI_Tb01FrmS01_14_00_GE_GE_ELENCO_IMPEGNI.MD",
 		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/OBJECT/README_IMPEGNI.MD",
 		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/IMPEGNI/Project_IMPEGNI_DI_SPESA.sublime-project",
@@ -175,7 +175,7 @@
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -191,6 +191,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"C_COLLEGA_PRES3000_TB26_DIPENDENTI_SAL_ACC",
+			"C_COLLEGA_PRES3000_TB26_DIPENDENTI_SAL_ACC\\(\\)",
+			"COLLEGA_IMPEGNI_Tabelle_pFunct",
+			"CUP",
 			"\\\\",
 			"il modulo",
 			"_SALVATAGGI_IMPEGNI",
@@ -314,11 +318,7 @@
 			"Maria Teresa",
 			"MARIA TERESA",
 			"\\-",
-			"vespazi",
-			"gabriele",
-			"colafrancesco",
-			"MARROCCO",
-			"d'emilia"
+			"vespazi"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -346,7 +346,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -391,7 +391,7 @@
 	"project": "Project_IMPEGNI_DI_SPESA.sublime-project",
 	"replace":
 	{
-		"height": 60.8
+		"height": 52.8
 	},
 	"save_all_on_build": false,
 	"select_file":

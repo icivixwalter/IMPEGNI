@@ -1,0 +1,58 @@
+--------------------------
+Data/Ora: 21/03/2025 12:53:21
+Tabella: LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA
+DB: c:\GESTIONI\GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_N26_SALARIO_ACCESSORIO\SALARIO_ACCESSORIO_MDB\LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA.mdb
+La tabella non esiste nel database corrente: myClasse_collegamento diretto.
+Errore nel myClasse_collegamento: "c:\GESTIONI\GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_N26_SALARIO_ACCESSORIO\SALARIO_ACCESSORIO_MDB\LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA.mdb" non è un percorso valido. Assicurarsi che il nome del percorso sia corretto e di essere collegati al server in cui si trova il file.
+
+--------------------------
+
+--------------------------
+Data/Ora: 21/03/2025 12:53:21
+Tabella: LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO
+DB: c:\GESTIONI\GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_N26_SALARIO_ACCESSORIO\SALARIO_ACCESSORIO_MDB\LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.mdb
+La tabella non esiste nel database corrente: myClasse_collegamento diretto.
+Errore nel myClasse_collegamento: "c:\GESTIONI\GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_N26_SALARIO_ACCESSORIO\SALARIO_ACCESSORIO_MDB\LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.mdb" non è un percorso valido. Assicurarsi che il nome del percorso sia corretto e di essere collegati al server in cui si trova il file.
+
+--------------------------
+
+--------------------------
+Data/Ora: 21/03/2025 12:54:10
+Tabella: LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA
+DB: c:\GESTIONI\GESTIONE_LLPP\PRES3000_GESTIONE\ARCHIVI_PRES3000\PRES3000_N26_SALARIO_ACCESSORIO\SALARIO_ACCESSORIO_MDB\LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA.mdb
+--------------------------
+Data/Ora: 21/03/2025 12:55:08
+Tabella: LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA
+DB: c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\MDB\LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA.mdb
+La tabella non esiste nel database corrente: myClasse_collegamento diretto.
+Errore nel myClasse_collegamento: Impossibile trovare la tabella o la query di input 'LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA'. Verificare che esista e che il nome sia stato digitato correttamente.
+
+--------------------------
+
+--------------------------
+Data/Ora: 21/03/2025 12:55:15
+Tabella: LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO
+DB: c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\MDB\LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.mdb
+La tabella non esiste nel database corrente: myClasse_collegamento diretto.
+Errore nel myClasse_collegamento: Impossibile trovare la tabella o la query di input 'LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO'. Verificare che esista e che il nome sia stato digitato correttamente.
+
+--------------------------
+
+--------------------------
+Data/Ora: 21/03/2025 13:01:18
+Tabella: LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA
+DB: c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\MDB\LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA.mdb
+La tabella non esiste nel database corrente: myClasse_collegamento diretto.
+Errore nel myClasse_collegamento: Impossibile trovare la tabella o la query di input 'LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA'. Verificare che esista e che il nome sia stato digitato correttamente.
+
+--------------------------
+
+--------------------------
+Data/Ora: 21/03/2025 13:02:52
+Tabella: LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO
+DB: c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\MDB\LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.mdb
+La tabella non esiste nel database corrente: myClasse_collegamento diretto.
+Errore nel myClasse_collegamento: Impossibile trovare la tabella o la query di input 'LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO'. Verificare che esista e che il nome sia stato digitato correttamente.
+
+--------------------------
+

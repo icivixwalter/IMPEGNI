@@ -1,10 +1,23 @@
 On branch calcolo
-Your branch is up to date with 'origin/calcolo'.
+Your branch is ahead of 'origin/calcolo' by 1 commit.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   MDB/LLPP_IMPEGNI_ATTIVA_GESTIONE.mdb
+	modified:   MDB/LLPP_IMPEGNI_DF02_ATTI_DI_IMPEGNO.mdb
+	modified:   MDB/LLPP_IMPEGNI_Tb01_ATTI_DI_IMPEGNO.mdb
+	modified:   MDB/LLPP_IMPEGNI_Tb02_ELENCO_DI_SPESA.mdb
+	modified:   OBJECT/PDF/LLPP_IMPEGNI_Tb01FrmM01_01_GESTIONE_IMPEGNI_MASTER.pdf
+	modified:   OBJECT/README_IMPEGNI.MD
+	modified:   Project_IMPEGNI_DI_SPESA.sublime-workspace
+	modified:   git_STATUS+ADD+COMMIT+PUSH.BAT
 	modified:   git_STATUS_LOG.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	MDB/COLLEGAMENTO_DA_FARE.pdf
+	MDB/LOG.TXT
 
 no changes added to commit (use "git add" and/or "git commit -a")
