@@ -19,6 +19,7 @@ ECHO ........................................................................
 ECHO.
 
 :: Esegui il comando git status
+ECHO. GIT STATUS
 git status > git_STATUS_LOG.txt
 
 :: Visualizza lo stato in rosso su sfondo bianco
@@ -57,13 +58,17 @@ ECHO ........................................................................
 ECHO.
 
 :: Esegui git PULL per sincronizzare
-
+ECHO. GIT PULL
 git pull
 TIMEOUT /T 3 /NOBREAK
 
+ECHO.
+
 :: Esegui git add, commit e push
+ECHO. GIT ADD + COMMIT
 git add .
 git commit -m "%today%_aggiornamento_IMPEGNI"
+ECHO.
 
 :: Pausa per consentire il commit
 ECHO.
